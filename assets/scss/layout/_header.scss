@@ -1,1 +1,20 @@
 @import "./nav";
+
+.yacky-studio-heading-wrapper-boxes{
+ height:100px;
+ margin-left:auto;
+ margin-right:auto;
+ border-bottom: 1px solid #000;
+ display: flex;
+ .yacky-studio-heading-box{
+  width:50%;
+  &:nth-child(1){
+   display:flex;    
+   justify-content: flex-start;
+   align-items: center;
+   .inner-wrapper{
+    width:60%;
+   }
+  }
+ }
+}

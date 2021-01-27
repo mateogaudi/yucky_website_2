@@ -1,8 +1,20 @@
+@import url(../../node_modules/font-awesome/css/font-awesome.min.css);
+body {
+  color: #111;
+  background: #fff; }
+
+.container {
+  width: 1000px;
+  margin: 0 auto; }
+
+.inner-wrapper {
+  width: 80%;
+  margin: 0 auto; }
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url(../../node_modules/font-awesome/css/font-awesome.min.css);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -45,5 +57,20 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+.yacky-studio-heading-wrapper-boxes {
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #000;
+  display: flex; }
+  .yacky-studio-heading-wrapper-boxes .yacky-studio-heading-box {
+    width: 50%; }
+    .yacky-studio-heading-wrapper-boxes .yacky-studio-heading-box:nth-child(1) {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; }
+      .yacky-studio-heading-wrapper-boxes .yacky-studio-heading-box:nth-child(1) .inner-wrapper {
+        width: 60%; }
 
 /*# sourceMappingURL=stylesheet.css.map */
