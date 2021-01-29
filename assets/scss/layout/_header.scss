@@ -5,6 +5,7 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  box-sizing: border-box;
   .yucky-studio-heading-box {
     width: 50%;
     display: flex;
@@ -12,9 +13,7 @@
     img {
       height: 16px;
       width: 16px;
-      &:nth-child(1) {
-        margin-right: 5px;
-      }
+      margin-left: 5px;
     }
   }
   :nth-child(1) {
@@ -22,6 +21,9 @@
     justify-content: flex-start;
     align-items: center;
     font-size: 14px;
+    i{
+     margin-right:10px;
+    }
   }
 }
 .yucky-studio-header-main-description-wrapper {
@@ -45,11 +47,12 @@
       }
       .yucky-studio-header-main-description-heading {
         font-size: 110px;
-     
-        h1{
-          :hover{
-           display:flex;
-           justify-content: center;
+
+        h1 {
+          color: aqua;
+          :hover {
+            display: flex;
+            justify-content: center;
           }
         }
       }
@@ -66,7 +69,7 @@
         }
         :hover {
           cursor: pointer;
-          border-bottom: 2px solid blue;
+          border-bottom: 2px solid aqua;
         }
       }
       .yucky-studio-header-main-description-information {
@@ -78,13 +81,19 @@
           width: 55px;
           margin-bottom: 20px;
         }
-        p{
-         display: flex;
-         flex-flow: column;
-         align-items: flex-end;
+        p {
+          display: flex;
+          flex-flow: column;
+          align-items: flex-end;
         }
         span {
-          margin-bottom:3px;
+          font-size: 14px;
+          font-weight: 600;
+          &:nth-child(1) {
+            margin-bottom: 3px;
+            font-size: 12px;
+            font-weight: 300;
+          }
         }
       }
     }
@@ -93,7 +102,7 @@
       span {
         display: flex;
         flex-flow: column;
-        margin-bottom: 5px;
+        margin-bottom: 8px;
         &:nth-child(3) {
           margin-bottom: 0;
         }
