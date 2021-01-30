@@ -1,12 +1,12 @@
 @import "./nav";
 
-.yucky-studio-heading-wrapper-boxes {
+.yucky-studio-topbar-wrapper-boxes {
   height: 100px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   box-sizing: border-box;
-  .yucky-studio-heading-box {
+  .yucky-studio-topbar-box {
     width: 50%;
     display: flex;
     justify-content: flex-end;
@@ -20,7 +20,6 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-size: 14px;
     i{
      margin-right:10px;
     }
@@ -28,7 +27,7 @@
 }
 .yucky-studio-header-main-description-wrapper {
   padding-bottom: 150px;
-  box-sizing: border-box;
+
   .inner-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -39,17 +38,17 @@
       flex-flow: column;
       &:nth-child(2) {
         align-items: flex-end;
+        justify-content: space-between;
       }
       .yucky-studio-header-main-description-logo {
         img {
           margin-bottom: 50px;
+          height:auto;
+          width:140px;
         }
       }
       .yucky-studio-header-main-description-heading {
-        font-size: 110px;
-
         h1 {
-          color: aqua;
           :hover {
             display: flex;
             justify-content: center;
@@ -57,20 +56,17 @@
         }
       }
       .yucky-studio-header-main-description-navigation {
-        margin-bottom: 150px;
         word-spacing: 20px;
-        font-size: 14px;
+        :hover{
+          border-bottom: 2px solid #29a89e;
+        }
         a {
-          text-decoration: none;
-          color: #000;
-          &:nth-child(2) {
-            word-spacing: 0;
+            text-decoration: none;
+            color: #000;
+            &:nth-child(2) {
+              word-spacing: 0;
+            }
           }
-        }
-        :hover {
-          cursor: pointer;
-          border-bottom: 2px solid aqua;
-        }
       }
       .yucky-studio-header-main-description-information {
         display: flex;
@@ -87,18 +83,15 @@
           align-items: flex-end;
         }
         span {
-          font-size: 14px;
-          font-weight: 600;
-          &:nth-child(1) {
-            margin-bottom: 3px;
-            font-size: 12px;
-            font-weight: 300;
+          margin-bottom: 3px;
+          &:nth-child(2) {
+            font-size: 18px;
+            font-weight: 700;
           }
         }
       }
     }
     .yucky-studio-header-main-description-text {
-      font-size: 22px;
       span {
         display: flex;
         flex-flow: column;
