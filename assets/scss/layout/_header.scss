@@ -1,104 +1,126 @@
 @import "./nav";
 
-.yucky-studio-topbar-wrapper-boxes {
+.topbar-wrapper-boxes {
   height: 100px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   display: flex;
   box-sizing: border-box;
-  .yucky-studio-topbar-box {
-    width: 50%;
+  border-bottom: 1px solid #000;
+  .inner-wrapper {
     display: flex;
-    justify-content: flex-end;
-    img {
-      height: 16px;
-      width: 16px;
-      margin-left: 5px;
-    }
-  }
-  :nth-child(1) {
-    display: flex;
-    justify-content: flex-start;
     align-items: center;
-    i{
-     margin-right:10px;
+    justify-content: space-between;
+    .topbar-box {
+      width: 50%;
+      .topbar-box-social-media {
+        display: flex;
+        justify-content: flex-end;
+      }
+      img {
+        height: 23px;
+        width: 23px;
+        margin-left: 5px;
+      }
     }
   }
 }
-.yucky-studio-header-main-description-wrapper {
+.logo-bar {
+  .inner-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 75px 0 25px;
+    justify-content: space-between;
+    .logo-bar-image {
+      width: 50%;
+      &:hover{
+        img{
+          transform: scale(.95);
+        }
+      }
+      img {
+        transition: .25s ease all;
+        height: auto;
+        width: 140px;
+      }
+    }
+    .logo-bar-nav {
+      a {
+        color: #000;
+        position: relative;
+        margin-right: 20px;
+        &:before{
+          content: ' ';
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          left:0;
+          bottom: -5px;
+          transition: .25s ease all;
+        }
+        &:hover{
+          &:before{
+            background-color: $primaryColor;
+          }
+        }
+        &:last-of-type {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+.header-description-wrapper {
   padding-bottom: 150px;
-
+  border-bottom: 1px solid #000;
   .inner-wrapper {
     display: flex;
     flex-wrap: wrap;
-    .yucky-studio-header-main-description-box {
-      width: 50%;
+    .header-description-box {
+      width: 100%;
+      justify-content: space-between;
       padding: 50px 0;
       display: flex;
-      flex-flow: column;
-      &:nth-child(2) {
-        align-items: flex-end;
-        justify-content: space-between;
-      }
-      .yucky-studio-header-main-description-logo {
-        img {
-          margin-bottom: 50px;
-          height:auto;
-          width:140px;
-        }
-      }
-      .yucky-studio-header-main-description-heading {
-        h1 {
-          :hover {
-            display: flex;
-            justify-content: center;
-          }
-        }
-      }
-      .yucky-studio-header-main-description-navigation {
-        word-spacing: 20px;
-        :hover{
-          border-bottom: 2px solid #29a89e;
-        }
-        a {
-            text-decoration: none;
-            color: #000;
-            &:nth-child(2) {
-              word-spacing: 0;
+      flex-wrap: wrap;
+      .header-description-heading {
+        width: 50%;
+        &:hover {
+          h1 {
+            span {
+              transform: translateX(25px);
+              display: block;
+              transition: 0.25s ease all;
             }
           }
+        }
       }
-      .yucky-studio-header-main-description-information {
+      .header-description-information {
+        align-self: flex-end;
+        text-align: right;
         display: flex;
-        align-items: flex-end;
-        flex-flow: column;
+        justify-content: flex-end;
+        flex-wrap: wrap;
         img {
           height: 55px;
           width: 55px;
           margin-bottom: 20px;
         }
         p {
-          display: flex;
-          flex-flow: column;
-          align-items: flex-end;
+          width: 100%;
         }
         span {
+          display: block;
           margin-bottom: 3px;
-          &:nth-child(2) {
+          &.bold{
             font-size: 18px;
             font-weight: 700;
           }
         }
       }
     }
-    .yucky-studio-header-main-description-text {
+    .header-description-text {
       span {
         display: flex;
         flex-flow: column;
-        margin-bottom: 8px;
-        &:nth-child(3) {
-          margin-bottom: 0;
-        }
       }
     }
   }

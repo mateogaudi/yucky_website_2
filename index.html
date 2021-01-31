@@ -4,66 +4,93 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yucky Studio</title>
-    <link rel="stylesheet" href="../../dist/stylesheet/stylesheet.css" type="text/css"/>
+    <link rel="stylesheet" href="dist/stylesheet/stylesheet.css" type="text/css"/>
   </head>
   <body>
     <div class="container">
-     <header class="yucky-studio-topbar-wrapper-boxes">
+     <header class="topbar-wrapper-boxes">
       <div class="inner-wrapper">
-      <div class="yucky-studio-topbar-box">
+      <div class="topbar-box">
         <i class="fa fa-envelope-o"></i>
         <span class="medium-description">yuckystudio@gmail.com</span>
       </div>
-      <div class="yucky-studio-topbar-box">
-        <nav>
-          <a href="./assets/scss/layout/_nav.scss">
+      <div class="topbar-box">
+        <div class="topbar-box-social-media">
+          <a href="#">
             <img src="assets/images/behance_black.png">
           </a>
-          <a href="./assets/scss/layout/_nav.scss">
+          <a href="#">
             <img src="assets/images/dribbble_black.png">
           </a>
         </nav>
        </div>
       </div>
      </header>
-     <div class="line-section"></div>
-     <main class="yucky-studio-header-main-description-wrapper">
-      <div class="inner-wrapper">
-       <div class="yucky-studio-header-main-description-box">
-        <div class="yucky-studio-header-main-description-logo">
-         <img src="assets/images/small_logo.png">
-        </div>
-        <div class="yucky-studio-header-main-description-heading">
-         <h1 class="main-heading"><span>Yucky</span> Studio</h1>
-        </div>
-       </div>
-       <div class="yucky-studio-header-main-description-box">
-        <nav class="yucky-studio-header-main-description-navigation small-heading">
-           <a href="#">Projects</a>
-           <a href="#">About the Studio</a>
-           <a href="#">Contact</a>
-        </nav>
-        <div class="yucky-studio-header-main-description-information">
-         <img src="assets/images/fejs.png">
-         <p class="medium-description">
-          <span>Michał Kobyliński</span>
-          <span>Author the Yucky Studio</span>
-         </p>
+     <main>
+       <div class="logo-bar">
+        <div class="inner-wrapper">
+          <div class="logo-bar-image">
+            <a href="#">
+              <img src="assets/images/small_logo.png">
+            </a>
+          </div>
+          <nav class="logo-bar-nav small-heading">
+            <a href="#">Projects</a>
+            <a href="#">About the Studio</a>
+            <a href="#">Contact</a>
+          </nav>
         </div>
        </div>
-       <div class="yucky-studio-header-main-description-text">
-        <p class="main-description">
-         <span>Do not let the name fool you. Yucky Studio itself is not
-          yucky at all. We try of best</span> 
-          <span>to create beautiful projects. Our little
-          studio specialzes in Brand Identity and Web</span> 
-          <span>Design.We analyze, we code, we make better Ui and stick to
-          UXfundamentals.</span>
-        </p>
-       </div>
-      </div>
-     </main>
-     <div class="line-section"></div>
+      <section class="header-description-wrapper">
+        <div class="inner-wrapper">
+        <div class="header-description-box">
+          <div class="header-description-heading">
+            <h1 class="main-heading"><span>Yucky</span> Studio</h1>
+          </div>
+          <div class="header-description-information">
+            <img src="assets/images/fejs.png">
+            <p class="medium-description">
+              <span>Michał Kobyliński</span>
+              <span class="bold">Author the Yucky Studio</span>
+            </p>
+          </div>
+        </div>
+        <div class="header-description-box">
+          <div class="header-description-text">
+            <p class="main-description">
+            <span>
+              Do not let the name fool you. Yucky Studio itself is not yucky at all.
+              We try of best to create beautiful projects. Our little
+              studio specialzes in Brand Identity and Web Design. 
+              We analyze, we code, we make better Ui and stick to UXfundamentals.
+              </span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section-one-wrapper">
+        <div class="inner-wrapper">
+          <div class="section-one-heading">
+          <h2>Projects</h2>          
+          </div>
+          <div class="section-one-boxes-wrapper">
+            <div class="section-one-picture-box">
+              <a></a>
+              <a></a>
+            </div>
+            <div class="section-one-information-box">
+              <h3>Title number two and</h3>
+              <p>
+                <span>Title number one</span>
+                <span>and some other bullshit</span>
+                <span>to read and fuck</span>
+              </p>
+              <button>Show me</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     </div>
   </body>
 </html>
