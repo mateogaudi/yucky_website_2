@@ -1,0 +1,46 @@
+footer {
+  background: $white;
+  .footer-wrapper-content {
+    background: $black;
+    padding: 150px 0;
+    .inner-wrapper {
+      .headings-wrapper-box {
+        display: flex;
+        .headings-box {
+          width: 50%;
+          justify-content: space-between;
+          display: flex;
+          flex-flow: column;
+          &:last-of-type {
+            text-align: right;
+          }
+          h6 {
+            color: $primaryColor;
+            margin-bottom: 5px;
+          }
+          p {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+  .footer-bar-wrapper {
+    background: $white;
+    padding: 30px 0;
+    .inner-wrapper {
+      display: flex;
+      .footer-bar-logo {
+        width: 50%;
+        &:hover {
+          img {
+            transform: scale(0.95);
+          }
+        }
+        img {
+          transition: 0.25s ease all;
+        }
+      }
+    }
+  }
+}

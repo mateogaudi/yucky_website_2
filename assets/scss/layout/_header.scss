@@ -5,7 +5,7 @@
   margin: 0 auto;
   display: flex;
   box-sizing: border-box;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid $black;
   .inner-wrapper {
     display: flex;
     align-items: center;
@@ -39,39 +39,13 @@
       }
       img {
         transition: .25s ease all;
-        height: auto;
-        width: 140px;
-      }
-    }
-    .logo-bar-nav {
-      a {
-        color: #000;
-        position: relative;
-        margin-right: 20px;
-        &:before{
-          content: ' ';
-          position: absolute;
-          width: 100%;
-          height: 2px;
-          left:0;
-          bottom: -5px;
-          transition: .25s ease all;
-        }
-        &:hover{
-          &:before{
-            background-color: $primaryColor;
-          }
-        }
-        &:last-of-type {
-          margin-right: 0;
-        }
       }
     }
   }
 }
 .header-description-wrapper {
   padding-bottom: 150px;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid $black;
   .inner-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -83,13 +57,15 @@
       flex-wrap: wrap;
       .header-description-heading {
         width: 50%;
-        &:hover {
-          h1 {
-            span {
-              transform: translateX(25px);
-              display: block;
-              transition: 0.25s ease all;
-            }
+        h1{
+
+        }
+        span{
+          display: block;
+          transition: 0.8s ease all;
+          transform: translateX(0);
+          &:hover {
+            transform: translateX(25%);
           }
         }
       }
@@ -119,8 +95,7 @@
     }
     .header-description-text {
       span {
-        display: flex;
-        flex-flow: column;
+        display: block;
       }
     }
   }

@@ -1,0 +1,24 @@
+.logo-bar-nav {
+  a {
+    color: $black;
+    position: relative;
+    margin-right: 20px;
+    &:before {
+      content: " ";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      left: 0;
+      bottom: -5px;
+      transition: 0.25s ease all;
+    }
+    &:hover {
+      &:before {
+        background-color: $primaryColor;
+      }
+    }
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}

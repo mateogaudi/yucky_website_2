@@ -1,0 +1,32 @@
+.logotypes-section-wrapper {
+  .inner-wrapper {
+    position: relative;
+    .logotypes-section-image {
+      height: 900px;
+        width: 100%;
+      img {
+        height: 900px;
+        width: 100%;
+        background: $lightGray;
+        &:hover {
+          background:$primaryColor;
+        }
+      }
+      .logotypes-section-heading {
+        h2 {
+          position: absolute;
+          left: 50%;
+          top: 40%;
+          z-index: 5;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+    .button-wrapper {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, 50%);
+    }
+  }
+}
