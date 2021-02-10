@@ -37,7 +37,7 @@
     outline: $white;
   }
 }
-.more-project-button {
+.button {
   width: 200px;
   height: 10px;
   transition: 0.8s ease all;
@@ -67,25 +67,58 @@
     }
   }
 }
-.footer-bar-arrow{
- width: 50%;
- display: flex;
- justify-content: flex-end;
- .footer-bar-button {
-   width: 30px;
-   height: 30px;
-   background: $primaryColor;
-   position: relative;
-   &::before {
-    width: 0;
-    height: 0;
-     content: " ";
-     border-left: 6px solid transparent;
-     border-right: 6px solid transparent;
-     border-bottom: 12px solid $white;
-     left:9px;
-     top:9px;
-     position: absolute;
-   }
- }
+.bar-arrow {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  .bar-button {
+    width: 30px;
+    height: 30px;
+    background: $primaryColor;
+    position: relative;
+    &::before {
+      width: 0;
+      height: 0;
+      content: " ";
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-bottom: 12px solid $white;
+      left: 9px;
+      top: 9px;
+      position: absolute;
+    }
+  }
+}
+.about-the-studio-content-wrapper {
+  .about-the-studio-heading-box {
+    .wrapper-box {
+      margin-bottom:50px ;
+      .exit-button {
+        width: 200px;
+        height: 10px;
+        left: 0;
+        cursor: pointer;
+        position: relative;
+        a {
+          .button-arrow {
+            width: 200px;
+            background: $primaryColor;
+            height: 2px;
+            &:before {
+              content: " ";
+              position: absolute;
+              left: 0;
+              top: -5px;
+              border: 2px solid $primaryColor;
+              border-bottom: 0;
+              border-right: 0;
+              height: 10px;
+              width: 10px;
+              transform: rotate(-45deg);
+            }
+          }
+        }
+      }
+    }
+  }
 }

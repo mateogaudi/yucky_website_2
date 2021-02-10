@@ -8,6 +8,7 @@
 // layout
 @import "./layout/footer";
 @import "./layout/header";
+@import "./layout/header-about-the-studio";
 
 //components
 @import "./components/button";
@@ -15,5 +16,7 @@
 @import "./sections/project-section";
 @import "./sections/more-project";
 @import "./sections/logotypes-section";
+@import "./sections/help-with-you";
+@import "./sections/step-by-step";
 // node_modules
 @import "../../node_modules/font-awesome/css/font-awesome.min.css";

@@ -1,18 +1,18 @@
-.project-section-wrapper {
+.project-wrapper {
   padding-bottom: 50px;
   .inner-wrapper {
     display: flex;
     flex-wrap: wrap;
-    .project-section-heading {
+    .headings{
       padding: 100px 0 50px;
     }
-    .project-section-boxes-wrapper {
+    .boxes-wrapper {
       display: flex;
       justify-content: space-between;
       width: 100%;
-      .project-section-picture-box {
+      .picture-box {
         position: relative;
-        .project-section-social-media {
+        .social-media-box{
           position: absolute;
           right: 5%;
           top: 5%;
@@ -21,7 +21,7 @@
             margin-left: 67px;
           }
         }
-        .project-section-images {
+        .images-box {
           img {
             height: 600px;
             width: 800px;
@@ -30,7 +30,7 @@
           }
         }
       }
-      .project-section-information-box {
+      .information-box {
         display: flex;
         flex-flow: column;
         justify-content: flex-end;

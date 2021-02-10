@@ -1,0 +1,36 @@
+.help-with-you-wrapper {
+  padding: 100px 0;
+  border-bottom: 1px solid $black;
+  .inner-wrapper {
+    .headings {
+      margin-bottom: 100px;
+      span {
+        display: block;
+      }
+    }
+    .wrapper-box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .box {
+        height: 150px;
+        width: 450px;
+        border-radius: 5px;
+        border: 1px solid $black;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+          transform: scale(.95);
+          span{
+            transition: .25s ease all;
+          }
+        }
+      }
+      .last-margin {
+        margin-bottom: 0px;
+      }
+    }
+  }
+}

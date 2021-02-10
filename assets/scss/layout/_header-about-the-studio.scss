@@ -1,0 +1,59 @@
+@import "./nav";
+.about-the-studio-image {
+  background-image: url("../../assets/images/bck_logotypes.png");
+  background: black;
+  .about-the-studio-wrapper{
+    border-bottom:1px solid $white;
+    .inner-wrapper {
+      .about-the-studio-boxes-topbar {
+        display: flex;
+        height: 100px;
+        align-items: center;
+        color: $white;
+        .about-the-studio-topbar-box {
+          width: 50%;
+          .medium-description {
+            color: $white;
+          }
+        }
+        .topbar-box-social-media {
+          width: 50%;
+          display: flex;
+          justify-content: flex-end;
+        }
+      }
+    }
+  }
+}
+.about-the-studio-content-wrapper {
+  padding: 100px 0;
+  .inner-wrapper {
+    display: flex;
+    .about-the-studio-heading-box {
+      width: 50%;
+      .headings {
+        h2 {
+          margin-bottom: 20px;
+          color: $white;
+          span {
+            display: block;
+          }
+        }
+      }
+      .text-information {
+        .main-description {
+          color: $white;
+        }
+      }
+    }
+    .about-the-studio-picture-box {
+      width: 50%;
+      position: relative;
+      img {
+        position: absolute;
+        right: 0;
+        bottom: -100px;
+      }
+    }
+  }
+}
