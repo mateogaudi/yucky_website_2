@@ -1,0 +1,39 @@
+.header-wrapper-box {
+ width: 100%;
+ padding-top: 100px;
+ .inner-wrapper{
+  .headings{
+   margin-bottom: 50px;
+  }
+  .wrapper-box {
+    margin-bottom: 50px;
+    z-index: 5;
+    .exit-button {
+      width: 200px;
+      height: 10px;
+      left: 0;
+      cursor: pointer;
+      position: relative;
+      a {
+        .button-arrow {
+          width: 200px;
+          background: $primaryColor;
+          height: 2px;
+          &:before {
+            content: " ";
+            position: absolute;
+            left: 0;
+            top: -5px;
+            border: 2px solid $primaryColor;
+            border-bottom: 0;
+            border-right: 0;
+            height: 10px;
+            width: 10px;
+            transform: rotate(-45deg);
+          }
+        }
+      }
+    }
+  }
+ }
+}

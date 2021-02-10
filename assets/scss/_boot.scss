@@ -9,7 +9,7 @@
 @import "./layout/footer";
 @import "./layout/header";
 @import "./layout/header-about-the-studio";
-
+@import "./layout/header-logotypes-subpage";
 //components
 @import "./components/button";
 // sections
@@ -18,5 +18,6 @@
 @import "./sections/logotypes-section";
 @import "./sections/help-with-you";
 @import "./sections/step-by-step";
+@import "./sections/logotypes-subpage-image";
 // node_modules
 @import "../../node_modules/font-awesome/css/font-awesome.min.css";
