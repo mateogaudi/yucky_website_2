@@ -3,56 +3,36 @@
   font-size: 140px;
   font-weight: 700;
   color: #29a89e;
-  font-family: '';
-  src: url();
   font-family: "europa"; }
 
 .main-largest-heading {
   font-size: 100px;
   font-weight: 700;
-  color: #000;
-  font-family: '';
-  src: url();
   font-family: "europa"; }
 
 .medium-heading {
   font-size: 30px;
   font-weight: 700;
-  color: #000;
-  font-family: '';
-  src: url();
   font-family: "europa"; }
 
 .small-heading {
   font-size: 18px;
   font-weight: 400;
-  color: #000;
-  font-family: '';
-  src: url();
   font-family: "europa"; }
 
 .main-description {
   font-size: 30px;
   font-weight: 300;
-  color: #000;
-  font-family: '';
-  src: url();
   font-family: "europa"; }
 
 .medium-description {
   font-size: 18px;
   font-weight: 300;
-  color: #000;
-  font-family: '';
-  src: url();
   font-family: "europa"; }
 
 .main-largest-description {
   font-size: 30px;
   font-weight: 400;
-  color: #000;
-  font-family: '';
-  src: url();
   font-family: "europa"; }
 
 body {
@@ -213,7 +193,7 @@ footer {
     .logo-bar .inner-wrapper .logo-bar-image:hover img {
       transform: scale(0.95); }
     .logo-bar .inner-wrapper .logo-bar-image img {
-      transition: .25s ease all; }
+      transform: 0.25s ease all; }
 
 .header-description-wrapper {
   padding-bottom: 150px;
@@ -231,8 +211,7 @@ footer {
         width: 50%; }
         .header-description-wrapper .inner-wrapper .header-description-box .header-description-heading span {
           display: block;
-          transition: 0.8s ease all;
-          transform: translateX(0); }
+          transition: .8s ease all; }
           .header-description-wrapper .inner-wrapper .header-description-box .header-description-heading span:hover {
             transform: translateX(25%); }
       .header-description-wrapper .inner-wrapper .header-description-box .header-description-information {
@@ -531,7 +510,7 @@ footer {
       .help-with-you-wrapper .inner-wrapper .wrapper-box .box:hover {
         transform: scale(0.95); }
         .help-with-you-wrapper .inner-wrapper .wrapper-box .box:hover span {
-          transition: .25s ease all; }
+          transition: 0.25s ease all; }
     .help-with-you-wrapper .inner-wrapper .wrapper-box .last-margin {
       margin-bottom: 0px; }
 

@@ -38,7 +38,7 @@
         }
       }
       img {
-        transition: .25s ease all;
+       transform: $timeScale; 
       }
     }
   }
@@ -59,8 +59,7 @@
         width: 50%;
         span{
           display: block;
-          transition: 0.8s ease all;
-          transform: translateX(0);
+          transition: .8s ease all;
           &:hover {
             transform: translateX(25%);
           }

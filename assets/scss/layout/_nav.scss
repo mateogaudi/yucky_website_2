@@ -10,7 +10,7 @@
       height: 2px;
       left: 0;
       bottom: -5px;
-      transition: 0.25s ease all;
+      transition: $timeScale;
     }
     &:hover {
       &:before {
@@ -36,7 +36,7 @@
         height: 2px;
         left: 0;
         bottom: -5px;
-        transition: 0.25s ease all;
+        transition: $timeScale;
       }
       &:hover {
         color: $primaryColor;

@@ -34,11 +34,11 @@ footer {
         width: 50%;
         &:hover {
           img {
-            transform: scale(0.95);
+            transform: scale(.95);
           }
         }
         img {
-          transition: 0.25s ease all;
+          transition: $timeScale;
         }
       }
     }
