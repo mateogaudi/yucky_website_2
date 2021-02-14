@@ -3,6 +3,7 @@
   &:hover {
     color: $white;
     background: $primaryColor;
+    transform:$primaryTransition;
   }
   .image {
     height: 900px;

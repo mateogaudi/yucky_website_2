@@ -34,9 +34,9 @@
       width: 50%;
       img {
         transform: $timeScale; 
-          &:hover{
-              transform: scale(.95);
-          }
+        &:hover{
+          transform: scale(.95);
+        }
       }
     }
   }
@@ -55,11 +55,13 @@
       flex-wrap: wrap;
       .header-description-heading {
         width: 50%;
-        span{
-          transition: $primaryTransition;
-          display: block;
-          &:hover {
-            transform: translateX(25%);
+        &:hover{
+          span{
+            transition: $primaryTransition;
+            display: block;
+            &:hover {
+              transform: translateX(25%);
+            }
           }
         }
       }

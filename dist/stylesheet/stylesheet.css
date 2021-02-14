@@ -190,10 +190,10 @@ footer {
       flex-wrap: wrap; }
       .header-description-wrapper .inner-wrapper .header-description-box .header-description-heading {
         width: 50%; }
-        .header-description-wrapper .inner-wrapper .header-description-box .header-description-heading span {
+        .header-description-wrapper .inner-wrapper .header-description-box .header-description-heading:hover span {
           transition: 0.8s ease all;
           display: block; }
-          .header-description-wrapper .inner-wrapper .header-description-box .header-description-heading span:hover {
+          .header-description-wrapper .inner-wrapper .header-description-box .header-description-heading:hover span:hover {
             transform: translateX(25%); }
       .header-description-wrapper .inner-wrapper .header-description-box .header-description-information {
         align-self: flex-end;
@@ -295,23 +295,23 @@ footer {
     transition: 0.25s ease all;
     outline: #fff; }
 
-.button {
-  width: 200px;
-  padding: 20px 0;
+.button-box-wrapper .button {
   transition: 0.8s ease all;
+  width: 200px;
+  height: 20px;
   cursor: pointer;
   position: relative; }
-  .button:hover {
+  .button-box-wrapper .button:hover {
     transform: translateX(50%); }
-  .button a .button-arrow {
+  .button-box-wrapper .button a .button-arrow {
     width: 200px;
     background: #29a89e;
     height: 2px; }
-    .button a .button-arrow:before {
+    .button-box-wrapper .button a .button-arrow:before {
       content: " ";
       position: absolute;
       right: 0;
-      top: 15px;
+      top: -5px;
       border: 2px solid #29a89e;
       border-bottom: 0;
       border-right: 0;
@@ -416,7 +416,8 @@ footer {
   position: relative; }
   .logotypes-section-wrapper:hover {
     color: #fff;
-    background: #29a89e; }
+    background: #29a89e;
+    transform: 0.8s ease all; }
   .logotypes-section-wrapper .image {
     height: 900px;
     width: 100%; }

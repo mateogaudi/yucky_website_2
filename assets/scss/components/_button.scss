@@ -38,31 +38,33 @@
     outline: $white;
   }
 }
-.button {
-  width: 200px;
-  padding: 20px 0;
-  transition: $primaryTransition;
-  cursor: pointer;
-  position: relative;
-  &:hover {
-    transform: translateX(50%);
-  }
-  a {
-    .button-arrow {
-      width: 200px;
-      background: $primaryColor;
-      height: 2px;
-      &:before {
-        content: " ";
-        position: absolute;
-        right: 0;
-        top: 15px;
-        border: 2px solid $primaryColor;
-        border-bottom: 0;
-        border-right: 0;
-        height: 10px;
-        width: 10px;
-        transform: rotate(-225deg);
+.button-box-wrapper {
+  .button {
+    transition:$primaryTransition;
+    width: 200px; 
+    height:20px;
+    cursor: pointer;
+    position: relative;
+    &:hover {
+      transform: translateX(50%);
+    }
+    a {
+      .button-arrow {
+        width: 200px;
+        background: $primaryColor;
+        height: 2px;
+        &:before {
+          content: " ";
+          position: absolute;
+          right: 0;
+          top: -5px;
+          border: 2px solid $primaryColor;
+          border-bottom: 0;
+          border-right: 0;
+          height: 10px;
+          width: 10px;
+          transform: rotate(-225deg);
+        }
       }
     }
   }
