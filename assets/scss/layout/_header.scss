@@ -32,13 +32,11 @@
     justify-content: space-between;
     .logo-bar-image {
       width: 50%;
-      &:hover{
-        img{
-          transform: scale(.95);
-        }
-      }
       img {
-       transform: $timeScale; 
+        transform: $timeScale; 
+          &:hover{
+              transform: scale(.95);
+          }
       }
     }
   }
@@ -58,8 +56,8 @@
       .header-description-heading {
         width: 50%;
         span{
-          display: block;
           transition: .8s ease all;
+          display: block;
           &:hover {
             transform: translateX(25%);
           }
@@ -96,3 +94,4 @@
     }
   }
 }
+

@@ -1,25 +1,28 @@
 .logotypes-section-wrapper {
-  .inner-wrapper {
-    position: relative;
-    .image {
+  position: relative;
+  &:hover {
+    color: $white;
+    background: $primaryColor;
+  }
+  .image {
+    height: 900px;
+    width: 100%;
+    img {
       height: 900px;
-        width: 100%;
-      img {
-        height: 900px;
-        width: 100%;
-        background: $lightGray;
-        &:hover {
-          background:$primaryColor;
-        }
+      width: 100%;
+      background: $lightGray;
+      &:hover {
+        background: $primaryColor;
       }
-      .heading {
-        h2 {
-          position: absolute;
-          left: 50%;
-          top: 40%;
-          z-index: 5;
-          transform: translate(-50%, -50%);
-        }
+    }
+    h2 {
+      position: absolute;
+      left: 50%;
+      top: 40%;
+      z-index: 5;
+      transform: translate(-50%, -50%);
+      &:hover {
+        background: $primaryColor;
       }
     }
     .button-wrapper {

@@ -122,46 +122,28 @@ footer {
       display: flex; }
       footer .bar-wrapper .inner-wrapper .bar-logo {
         width: 50%; }
-        footer .bar-wrapper .inner-wrapper .bar-logo:hover img {
-          transform: scale(0.95); }
         footer .bar-wrapper .inner-wrapper .bar-logo img {
           transition: 0.25s ease all; }
+          footer .bar-wrapper .inner-wrapper .bar-logo img:hover {
+            transform: scale(0.95); }
 
 .logo-bar-nav a {
+  padding: 20px;
   color: #000;
-  position: relative;
-  margin-right: 20px; }
+  position: relative; }
   .logo-bar-nav a:before {
     content: " ";
     position: absolute;
     width: 100%;
     height: 2px;
     left: 0;
-    bottom: -5px;
+    bottom: 10px;
     transition: 0.25s ease all; }
   .logo-bar-nav a:hover:before {
     background-color: #29a89e; }
-  .logo-bar-nav a:last-of-type {
-    margin-right: 0; }
 
 .about-the-studio-image .logo-bar-nav a {
-  color: #fff;
-  position: relative;
-  margin-right: 20px; }
-  .about-the-studio-image .logo-bar-nav a:before {
-    content: " ";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    left: 0;
-    bottom: -5px;
-    transition: 0.25s ease all; }
-  .about-the-studio-image .logo-bar-nav a:hover {
-    color: #29a89e; }
-    .about-the-studio-image .logo-bar-nav a:hover:before {
-      background-color: #29a89e; }
-  .about-the-studio-image .logo-bar-nav a:last-of-type {
-    margin-right: 0; }
+  color: #fff; }
 
 .topbar-wrapper-boxes {
   height: 100px;
@@ -190,10 +172,10 @@ footer {
   justify-content: space-between; }
   .logo-bar .inner-wrapper .logo-bar-image {
     width: 50%; }
-    .logo-bar .inner-wrapper .logo-bar-image:hover img {
-      transform: scale(0.95); }
     .logo-bar .inner-wrapper .logo-bar-image img {
       transform: 0.25s ease all; }
+      .logo-bar .inner-wrapper .logo-bar-image img:hover {
+        transform: scale(0.95); }
 
 .header-description-wrapper {
   padding-bottom: 150px;
@@ -210,8 +192,8 @@ footer {
       .header-description-wrapper .inner-wrapper .header-description-box .header-description-heading {
         width: 50%; }
         .header-description-wrapper .inner-wrapper .header-description-box .header-description-heading span {
-          display: block;
-          transition: .8s ease all; }
+          transition: .8s ease all;
+          display: block; }
           .header-description-wrapper .inner-wrapper .header-description-box .header-description-heading span:hover {
             transform: translateX(25%); }
       .header-description-wrapper .inner-wrapper .header-description-box .header-description-information {
@@ -236,77 +218,45 @@ footer {
       display: block; }
 
 .logo-bar-nav a {
+  padding: 20px;
   color: #000;
-  position: relative;
-  margin-right: 20px; }
+  position: relative; }
   .logo-bar-nav a:before {
     content: " ";
     position: absolute;
     width: 100%;
     height: 2px;
     left: 0;
-    bottom: -5px;
+    bottom: 10px;
     transition: 0.25s ease all; }
   .logo-bar-nav a:hover:before {
     background-color: #29a89e; }
-  .logo-bar-nav a:last-of-type {
-    margin-right: 0; }
 
 .about-the-studio-image .logo-bar-nav a {
-  color: #fff;
-  position: relative;
-  margin-right: 20px; }
-  .about-the-studio-image .logo-bar-nav a:before {
-    content: " ";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    left: 0;
-    bottom: -5px;
-    transition: 0.25s ease all; }
-  .about-the-studio-image .logo-bar-nav a:hover {
-    color: #29a89e; }
-    .about-the-studio-image .logo-bar-nav a:hover:before {
-      background-color: #29a89e; }
-  .about-the-studio-image .logo-bar-nav a:last-of-type {
-    margin-right: 0; }
+  color: #fff; }
 
 .about-the-studio-image {
   background-image: url("../../assets/images/bck_logotypes.png");
-  background: black; }
-  .about-the-studio-image .about-the-studio-wrapper {
+  background: #000; }
+  .about-the-studio-image .topbar-wrapper-boxes {
     border-bottom: 1px solid #fff; }
-    .about-the-studio-image .about-the-studio-wrapper .inner-wrapper .about-the-studio-boxes-topbar {
-      display: flex;
-      height: 100px;
-      align-items: center;
+    .about-the-studio-image .topbar-wrapper-boxes .inner-wrapper .topbar-box {
       color: #fff; }
-      .about-the-studio-image .about-the-studio-wrapper .inner-wrapper .about-the-studio-boxes-topbar .about-the-studio-topbar-box {
-        width: 50%; }
-        .about-the-studio-image .about-the-studio-wrapper .inner-wrapper .about-the-studio-boxes-topbar .about-the-studio-topbar-box .medium-description {
-          color: #fff; }
-      .about-the-studio-image .about-the-studio-wrapper .inner-wrapper .about-the-studio-boxes-topbar .topbar-box-social-media {
-        width: 50%;
-        display: flex;
-        justify-content: flex-end; }
-
-.about-the-studio-content-wrapper {
-  padding: 100px 0; }
-  .about-the-studio-content-wrapper .inner-wrapper {
-    display: flex; }
-    .about-the-studio-content-wrapper .inner-wrapper .about-the-studio-heading-box {
+  .about-the-studio-image .header-description-wrapper {
+    padding: 75px 0 100px; }
+    .about-the-studio-image .header-description-wrapper .inner-wrapper .heading-box {
       width: 50%; }
-      .about-the-studio-content-wrapper .inner-wrapper .about-the-studio-heading-box .headings h2 {
-        margin-bottom: 20px;
+      .about-the-studio-image .header-description-wrapper .inner-wrapper .heading-box .headings {
+        padding: 50px 0 50px; }
+        .about-the-studio-image .header-description-wrapper .inner-wrapper .heading-box .headings span {
+          display: block;
+          color: white; }
+      .about-the-studio-image .header-description-wrapper .inner-wrapper .heading-box .header-description-text .main-description span {
         color: #fff; }
-        .about-the-studio-content-wrapper .inner-wrapper .about-the-studio-heading-box .headings h2 span {
-          display: block; }
-      .about-the-studio-content-wrapper .inner-wrapper .about-the-studio-heading-box .text-information .main-description {
-        color: #fff; }
-    .about-the-studio-content-wrapper .inner-wrapper .about-the-studio-picture-box {
+    .about-the-studio-image .header-description-wrapper .inner-wrapper .picture-box {
       width: 50%;
       position: relative; }
-      .about-the-studio-content-wrapper .inner-wrapper .about-the-studio-picture-box img {
+      .about-the-studio-image .header-description-wrapper .inner-wrapper .picture-box img {
         position: absolute;
         right: 0;
         bottom: -100px; }
@@ -342,6 +292,7 @@ footer {
     color: #29a89e;
     background: #e3e3e3;
     transform: translateY(100%);
+    right: 20px;
     transition: 0.25s ease-in all;
     outline: #fff; }
 
@@ -390,19 +341,19 @@ footer {
       top: 9px;
       position: absolute; }
 
-.about-the-studio-content-wrapper .about-the-studio-heading-box .wrapper-box {
-  margin-bottom: 50px; }
-  .about-the-studio-content-wrapper .about-the-studio-heading-box .wrapper-box .exit-button {
+.button-box-wrapper {
+  z-index: 5; }
+  .button-box-wrapper .exit-button {
     width: 200px;
     height: 10px;
     left: 0;
     cursor: pointer;
     position: relative; }
-    .about-the-studio-content-wrapper .about-the-studio-heading-box .wrapper-box .exit-button a .button-arrow {
+    .button-box-wrapper .exit-button a .button-arrow {
       width: 200px;
       background: #29a89e;
       height: 2px; }
-      .about-the-studio-content-wrapper .about-the-studio-heading-box .wrapper-box .exit-button a .button-arrow:before {
+      .button-box-wrapper .exit-button a .button-arrow:before {
         content: " ";
         position: absolute;
         left: 0;
@@ -464,28 +415,33 @@ footer {
   .more-project-wrapper .inner-wrapper .wrapper-box .heading {
     margin-bottom: 20px; }
 
-.logotypes-section-wrapper .inner-wrapper {
+.logotypes-section-wrapper {
   position: relative; }
-  .logotypes-section-wrapper .inner-wrapper .image {
+  .logotypes-section-wrapper:hover {
+    color: #fff;
+    background: #29a89e; }
+  .logotypes-section-wrapper .image {
     height: 900px;
     width: 100%; }
-    .logotypes-section-wrapper .inner-wrapper .image img {
+    .logotypes-section-wrapper .image img {
       height: 900px;
       width: 100%;
       background: #ebebeb; }
-      .logotypes-section-wrapper .inner-wrapper .image img:hover {
+      .logotypes-section-wrapper .image img:hover {
         background: #29a89e; }
-    .logotypes-section-wrapper .inner-wrapper .image .heading h2 {
+    .logotypes-section-wrapper .image h2 {
       position: absolute;
       left: 50%;
       top: 40%;
       z-index: 5;
       transform: translate(-50%, -50%); }
-  .logotypes-section-wrapper .inner-wrapper .button-wrapper {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, 50%); }
+      .logotypes-section-wrapper .image h2:hover {
+        background: #29a89e; }
+    .logotypes-section-wrapper .image .button-wrapper {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, 50%); }
 
 .help-with-you-wrapper {
   padding: 100px 0;

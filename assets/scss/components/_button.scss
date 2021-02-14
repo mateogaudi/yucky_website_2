@@ -33,6 +33,7 @@
     color: $primaryColor;
     background: $darkGray;
     transform: translateY(100%);
+    right: 20px;
     transition: 0.25s ease-in all;
     outline: $white;
   }
@@ -89,34 +90,31 @@
     }
   }
 }
-.about-the-studio-content-wrapper {
-  .about-the-studio-heading-box {
-    .wrapper-box {
-      margin-bottom:50px ;
-      .exit-button {
+
+.button-box-wrapper {
+  z-index: 5;
+  .exit-button {
+    width: 200px;
+    height: 10px;
+    left: 0;
+    cursor: pointer;
+    position: relative;
+    a {
+      .button-arrow {
         width: 200px;
-        height: 10px;
-        left: 0;
-        cursor: pointer;
-        position: relative;
-        a {
-          .button-arrow {
-            width: 200px;
-            background: $primaryColor;
-            height: 2px;
-            &:before {
-              content: " ";
-              position: absolute;
-              left: 0;
-              top: -5px;
-              border: 2px solid $primaryColor;
-              border-bottom: 0;
-              border-right: 0;
-              height: 10px;
-              width: 10px;
-              transform: rotate(-45deg);
-            }
-          }
+        background: $primaryColor;
+        height: 2px;
+        &:before {
+          content: " ";
+          position: absolute;
+          left: 0;
+          top: -5px;
+          border: 2px solid $primaryColor;
+          border-bottom: 0;
+          border-right: 0;
+          height: 10px;
+          width: 10px;
+          transform: rotate(-45deg);
         }
       }
     }

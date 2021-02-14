@@ -1,15 +1,15 @@
 .logo-bar-nav {
   a {
+    padding: 20px;
     color: $black;
     position: relative;
-    margin-right: 20px;
     &:before {
       content: " ";
       position: absolute;
       width: 100%;
       height: 2px;
       left: 0;
-      bottom: -5px;
+      bottom: 10px;
       transition: $timeScale;
     }
     &:hover {
@@ -17,37 +17,12 @@
         background-color: $primaryColor;
       }
     }
-    &:last-of-type {
-      margin-right: 0;
+  }
+}
+.about-the-studio-image{
+  .logo-bar-nav{
+    a{
+      color:$white;
     }
   }
 }
-
-.about-the-studio-image{
-  .logo-bar-nav {
-    a {
-      color: $white;
-      position: relative;
-      margin-right: 20px;
-      &:before {
-        content: " ";
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        left: 0;
-        bottom: -5px;
-        transition: $timeScale;
-      }
-      &:hover {
-        color: $primaryColor;
-        &:before {
-          background-color: $primaryColor;
-        }
-      }
-      &:last-of-type {
-        margin-right: 0;
-      }
-    }
-  }  
-}
-

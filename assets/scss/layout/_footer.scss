@@ -32,13 +32,11 @@ footer {
       display: flex;
       .bar-logo {
         width: 50%;
-        &:hover {
-          img {
-            transform: scale(.95);
-          }
-        }
         img {
           transition: $timeScale;
+          &:hover {
+            transform: scale(0.95);
+          }
         }
       }
     }
