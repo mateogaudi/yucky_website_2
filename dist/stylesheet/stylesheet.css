@@ -36,8 +36,7 @@
   font-family: "europa"; }
 
 body {
-  color: #000;
-  background: #fff; }
+  color: #000; }
 
 .container {
   cursor: default; }
@@ -192,7 +191,7 @@ footer {
       .header-description-wrapper .inner-wrapper .header-description-box .header-description-heading {
         width: 50%; }
         .header-description-wrapper .inner-wrapper .header-description-box .header-description-heading span {
-          transition: .8s ease all;
+          transition: 0.8s ease all;
           display: block; }
           .header-description-wrapper .inner-wrapper .header-description-box .header-description-heading span:hover {
             transform: translateX(25%); }
@@ -293,16 +292,15 @@ footer {
     background: #e3e3e3;
     transform: translateY(100%);
     right: 20px;
-    transition: 0.25s ease-in all;
+    transition: 0.25s ease all;
     outline: #fff; }
 
 .button {
   width: 200px;
-  height: 10px;
+  padding: 20px 0;
   transition: 0.8s ease all;
   cursor: pointer;
-  position: relative;
-  transform: translateX(0%); }
+  position: relative; }
   .button:hover {
     transform: translateX(50%); }
   .button a .button-arrow {
@@ -313,7 +311,7 @@ footer {
       content: " ";
       position: absolute;
       right: 0;
-      top: -5px;
+      top: 15px;
       border: 2px solid #29a89e;
       border-bottom: 0;
       border-right: 0;
@@ -345,7 +343,6 @@ footer {
   z-index: 5; }
   .button-box-wrapper .exit-button {
     width: 200px;
-    height: 10px;
     left: 0;
     cursor: pointer;
     position: relative; }

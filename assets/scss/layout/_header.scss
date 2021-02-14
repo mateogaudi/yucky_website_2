@@ -56,7 +56,7 @@
       .header-description-heading {
         width: 50%;
         span{
-          transition: .8s ease all;
+          transition: $primaryTransition;
           display: block;
           &:hover {
             transform: translateX(25%);
