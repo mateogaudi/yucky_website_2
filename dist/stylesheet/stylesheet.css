@@ -334,11 +334,10 @@ footer {
 
 .header-wrapper-box {
   width: 100%;
-  padding-top: 100px; }
+  padding-top: 75px; }
   .header-wrapper-box .inner-wrapper .headings {
-    margin-bottom: 50px; }
+    padding: 50px 0; }
   .header-wrapper-box .inner-wrapper .wrapper-box {
-    margin-bottom: 50px;
     z-index: 5; }
     .header-wrapper-box .inner-wrapper .wrapper-box .exit-button {
       width: 200px;
