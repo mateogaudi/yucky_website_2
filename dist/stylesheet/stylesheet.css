@@ -235,30 +235,38 @@ footer {
   color: #fff; }
 
 .about-the-studio-image {
-  background-image: url("../../assets/images/bck_logotypes.png");
-  background: #000; }
+  background: #000;
+  background-image: url("../../assets/images/logotypes_white.png"); }
   .about-the-studio-image .topbar-wrapper-boxes {
     border-bottom: 1px solid #fff; }
     .about-the-studio-image .topbar-wrapper-boxes .inner-wrapper .topbar-box {
       color: #fff; }
-  .about-the-studio-image .header-description-wrapper {
-    padding: 75px 0 100px; }
-    .about-the-studio-image .header-description-wrapper .inner-wrapper .heading-box {
-      width: 50%; }
-      .about-the-studio-image .header-description-wrapper .inner-wrapper .heading-box .headings {
-        padding: 50px 0 50px; }
-        .about-the-studio-image .header-description-wrapper .inner-wrapper .heading-box .headings span {
-          display: block;
-          color: white; }
-      .about-the-studio-image .header-description-wrapper .inner-wrapper .heading-box .header-description-text .main-description span {
-        color: #fff; }
-    .about-the-studio-image .header-description-wrapper .inner-wrapper .picture-box {
-      width: 50%;
-      position: relative; }
-      .about-the-studio-image .header-description-wrapper .inner-wrapper .picture-box img {
-        position: absolute;
-        right: 0;
-        bottom: -100px; }
+    .about-the-studio-image .topbar-wrapper-boxes .inner-wrapper .topbar-box-social-media img {
+      width: 60px;
+      height: 23px; }
+
+.header-description-wrapper {
+  padding: 75px 0 100px; }
+  .header-description-wrapper .inner-wrapper .heading-box {
+    width: 50%; }
+    .header-description-wrapper .inner-wrapper .heading-box .headings {
+      padding: 50px 0 50px; }
+      .header-description-wrapper .inner-wrapper .heading-box .headings span {
+        display: block;
+        color: white; }
+    .header-description-wrapper .inner-wrapper .heading-box .header-description-text .main-description span {
+      color: #fff; }
+  .header-description-wrapper .inner-wrapper .picture-box {
+    width: 50%;
+    position: relative; }
+    .header-description-wrapper .inner-wrapper .picture-box img {
+      position: absolute;
+      right: 0;
+      bottom: -100px; }
+
+.logo-bar .inner-wrapper .logo-bar-image img {
+  height: 48px;
+  width: 140px; }
 
 .button-title {
   font-size: 22px;
