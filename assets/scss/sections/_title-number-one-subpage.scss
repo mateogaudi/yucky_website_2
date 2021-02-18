@@ -1,1 +1,20 @@
-
+.title-number-one-subpage-wrapper {
+  .image-wrapper-boxes {
+    .inner-wrapper {
+      .box-image {
+        height: 800px;
+        width: 100%;
+        background: $darkGray;
+        margin-bottom: 25px;
+        img {
+        }
+      }
+      .last-margin {
+        margin-bottom: 0px;
+      }
+      .header-description-text {
+        padding: 100px 0 50px;
+      }
+    }
+  }
+}
