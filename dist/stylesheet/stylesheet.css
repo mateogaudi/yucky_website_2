@@ -35,6 +35,11 @@
   font-weight: 400;
   font-family: "europa"; }
 
+.most-small-heading {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "europa"; }
+
 body {
   color: #000; }
 
@@ -267,6 +272,47 @@ footer {
 .logo-bar .inner-wrapper .logo-bar-image img {
   height: 48px;
   width: 140px; }
+
+.title-number-one-subpage-wrapper .header-description-wrapper {
+  border-bottom: none; }
+  .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box {
+    width: 100%; }
+    .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .headings .main-largest-heading span {
+      color: #000; }
+    .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .header-description-text .main-description span {
+      color: #000; }
+    .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box {
+      padding-top: 100px;
+      display: flex;
+      justify-content: space-between; }
+      .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .social-media-wrapper-boxes {
+        height: 250px;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-end; }
+        .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .social-media-wrapper-boxes .social-media-title {
+          margin-bottom: 20px; }
+        .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .social-media-wrapper-boxes .social-media-box .last-icon-social-media {
+          margin-left: 50px; }
+      .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .box {
+        height: 150px;
+        width: 480px;
+        border-radius: 5px;
+        border: 1px solid #000;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .box-large {
+        height: 400px;
+        width: 480px;
+        padding: 80px 0;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid #000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: column; }
 
 .button-title {
   font-size: 22px;
