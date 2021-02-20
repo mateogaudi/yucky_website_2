@@ -301,7 +301,19 @@ footer {
         border: 1px solid #000;
         display: flex;
         justify-content: center;
-        align-items: center; }
+        align-items: center;
+        position: relative; }
+        .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .box .item-wrapper {
+          position: absolute;
+          left: 20px;
+          top: 20px; }
+          .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .box .item-wrapper img {
+            width: 25px;
+            height: 23px; }
+        .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .box .social-media-title {
+          position: absolute;
+          right: 20px;
+          top: 20px; }
       .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .box-large {
         height: 400px;
         width: 480px;
@@ -312,7 +324,19 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        flex-flow: column; }
+        flex-flow: column;
+        position: relative; }
+        .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .box-large .item-wrapper {
+          position: absolute;
+          left: 20px;
+          top: 20px; }
+          .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .box-large .item-wrapper img {
+            width: 25px;
+            height: 28px; }
+        .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .box-large .social-media-title {
+          position: absolute;
+          right: 20px;
+          top: 20px; }
 
 .button-title {
   font-size: 22px;
