@@ -524,10 +524,23 @@ footer {
   height: 800px;
   width: 100%;
   background: #e3e3e3;
-  margin-bottom: 25px; }
+  margin-bottom: 10px; }
 .title-number-one-subpage-wrapper .image-wrapper-boxes .inner-wrapper .last-margin {
-  margin-bottom: 0px; }
+  margin-bottom: 0;
+  padding: 0; }
 .title-number-one-subpage-wrapper .image-wrapper-boxes .inner-wrapper .header-description-text {
   padding: 100px 0 50px; }
+.title-number-one-subpage-wrapper .title-number-one-mini-picture-wrapper .inner-wrapper .headings {
+  padding-bottom: 100px; }
+.title-number-one-subpage-wrapper .title-number-one-mini-picture-wrapper .inner-wrapper .mini-picture-wrapper-boxes {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .title-number-one-subpage-wrapper .title-number-one-mini-picture-wrapper .inner-wrapper .mini-picture-wrapper-boxes .mini-picture-box {
+    height: 530px;
+    width: 530px;
+    background: #e3e3e3; }
 
 /*# sourceMappingURL=stylesheet.css.map */
