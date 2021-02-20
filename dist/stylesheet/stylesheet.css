@@ -542,5 +542,9 @@ footer {
     height: 530px;
     width: 530px;
     background: #e3e3e3; }
+.title-number-one-subpage-wrapper .more-project-wrapper {
+  border-bottom: 1px solid #000; }
+.title-number-one-subpage-wrapper .project-wrapper {
+  padding-bottom: 150px; }
 
 /*# sourceMappingURL=stylesheet.css.map */
