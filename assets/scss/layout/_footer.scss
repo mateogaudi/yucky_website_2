@@ -1,0 +1,44 @@
+footer {
+  background: $white;
+  .wrapper-content {
+    background: $black;
+    padding: 150px 0;
+    .inner-wrapper {
+      .headings-wrapper-box {
+        display: flex;
+        .headings-box {
+          width: 50%;
+          justify-content: space-between;
+          display: flex;
+          flex-flow: column;
+          &:last-of-type {
+            text-align: right;
+          }
+          h6 {
+            color: $primaryColor;
+            margin-bottom: 5px;
+          }
+          p {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+  .bar-wrapper {
+    background: $white;
+    padding: 30px 0;
+    .inner-wrapper {
+      display: flex;
+      .bar-logo {
+        width: 50%;
+        img {
+          transition: $timeScale;
+          &:hover {
+            transform: scale(0.95);
+          }
+        }
+      }
+    }
+  }
+}

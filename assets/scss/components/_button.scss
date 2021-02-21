@@ -1,0 +1,122 @@
+.button-title {
+  font-size: 22px;
+  font-weight: 400;
+  color: $white;
+  font-family: "";
+  src: url();
+}
+.button-wrapper {
+  height: 61px;
+  width: 190px;
+  position: relative;
+  overflow: hidden;
+  &:hover {
+    .main-button-change {
+      transform: translateY(0);
+    }
+  }
+  .main-button {
+    background: $primaryColor;
+    height: 100%;
+    width: 100%;
+    border: 0;
+    border-radius: 5%;
+  }
+  .main-button-change {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+    border: 0;
+    color: $primaryColor;
+    background: $darkGray;
+    transform: translateY(100%);
+    right: 20px;
+    transition: $timeScale;
+    outline: $white;
+  }
+}
+.button-box-wrapper {
+  .button {
+    transition:$primaryTransition;
+    width: 200px; 
+    height:20px;
+    cursor: pointer;
+    position: relative;
+    &:hover {
+      transform: translateX(50%);
+    }
+    a {
+      .button-arrow {
+        width: 200px;
+        background: $primaryColor;
+        height: 2px;
+        &:before {
+          content: " ";
+          position: absolute;
+          right: 0;
+          top: -5px;
+          border: 2px solid $primaryColor;
+          border-bottom: 0;
+          border-right: 0;
+          height: 10px;
+          width: 10px;
+          transform: rotate(-225deg);
+        }
+      }
+    }
+  }
+}
+.bar-arrow {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  .bar-button {
+    width: 30px;
+    height: 30px;
+    background: $primaryColor;
+    position: relative;
+    &::before {
+      width: 0;
+      height: 0;
+      content: " ";
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-bottom: 12px solid $white;
+      left: 9px;
+      top: 9px;
+      position: absolute;
+    }
+  }
+}
+
+.button-box-wrapper {
+  z-index: 5;
+  .exit-button {
+    width: 200px;
+    left: 0;
+    cursor: pointer;
+    position: relative;
+    a {
+      .button-arrow {
+        width: 200px;
+        background: $primaryColor;
+        height: 2px;
+        &:before {
+          content: " ";
+          position: absolute;
+          left: 0;
+          top: -5px;
+          border: 2px solid $primaryColor;
+          border-bottom: 0;
+          border-right: 0;
+          height: 10px;
+          width: 10px;
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+}
