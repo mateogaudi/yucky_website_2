@@ -24,7 +24,7 @@
         &:hover{
           transform: scale(.95);
           span{
-            transition: .25s ease all;
+            transition: $timeScale;
           }
         }
       }

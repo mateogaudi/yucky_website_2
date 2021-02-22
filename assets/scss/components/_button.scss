@@ -33,36 +33,38 @@
     color: $primaryColor;
     background: $darkGray;
     transform: translateY(100%);
-    transition: 0.25s ease-in all;
+    right: 20px;
+    transition: $timeScale;
     outline: $white;
   }
 }
-.button {
-  width: 200px;
-  height: 10px;
-  transition: 0.8s ease all;
-  cursor: pointer;
-  position: relative;
-  transform: translateX(0%);
-  &:hover {
-    transform: translateX(50%);
-  }
-  a {
-    .button-arrow {
-      width: 200px;
-      background: $primaryColor;
-      height: 2px;
-      &:before {
-        content: " ";
-        position: absolute;
-        right: 0;
-        top: -5px;
-        border: 2px solid $primaryColor;
-        border-bottom: 0;
-        border-right: 0;
-        height: 10px;
-        width: 10px;
-        transform: rotate(-225deg);
+.button-box-wrapper {
+  .button {
+    transition:$primaryTransition;
+    width: 200px; 
+    height:20px;
+    cursor: pointer;
+    position: relative;
+    &:hover {
+      transform: translateX(50%);
+    }
+    a {
+      .button-arrow {
+        width: 200px;
+        background: $primaryColor;
+        height: 2px;
+        &:before {
+          content: " ";
+          position: absolute;
+          right: 0;
+          top: -5px;
+          border: 2px solid $primaryColor;
+          border-bottom: 0;
+          border-right: 0;
+          height: 10px;
+          width: 10px;
+          transform: rotate(-225deg);
+        }
       }
     }
   }
@@ -89,34 +91,30 @@
     }
   }
 }
-.about-the-studio-content-wrapper {
-  .about-the-studio-heading-box {
-    .wrapper-box {
-      margin-bottom:50px ;
-      .exit-button {
+
+.button-box-wrapper {
+  z-index: 5;
+  .exit-button {
+    width: 200px;
+    left: 0;
+    cursor: pointer;
+    position: relative;
+    a {
+      .button-arrow {
         width: 200px;
-        height: 10px;
-        left: 0;
-        cursor: pointer;
-        position: relative;
-        a {
-          .button-arrow {
-            width: 200px;
-            background: $primaryColor;
-            height: 2px;
-            &:before {
-              content: " ";
-              position: absolute;
-              left: 0;
-              top: -5px;
-              border: 2px solid $primaryColor;
-              border-bottom: 0;
-              border-right: 0;
-              height: 10px;
-              width: 10px;
-              transform: rotate(-45deg);
-            }
-          }
+        background: $primaryColor;
+        height: 2px;
+        &:before {
+          content: " ";
+          position: absolute;
+          left: 0;
+          top: -5px;
+          border: 2px solid $primaryColor;
+          border-bottom: 0;
+          border-right: 0;
+          height: 10px;
+          width: 10px;
+          transform: rotate(-45deg);
         }
       }
     }
