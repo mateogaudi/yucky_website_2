@@ -141,7 +141,7 @@ footer {
   .logo-bar-nav a:hover:before {
     background-color: #29a89e; }
 
-.about-the-studio-image .logo-bar-nav a {
+.white-image .logo-bar-nav a {
   color: #fff; }
 
 .topbar-wrapper-boxes {
@@ -231,17 +231,17 @@ footer {
   .logo-bar-nav a:hover:before {
     background-color: #29a89e; }
 
-.about-the-studio-image .logo-bar-nav a {
+.white-image .logo-bar-nav a {
   color: #fff; }
 
-.about-the-studio-image {
+.white-image {
   background: #000;
   background-image: url("../../assets/images/logotypes_white.png"); }
-  .about-the-studio-image .topbar-wrapper-boxes {
+  .white-image .topbar-wrapper-boxes {
     border-bottom: 1px solid #fff; }
-    .about-the-studio-image .topbar-wrapper-boxes .inner-wrapper .topbar-box {
+    .white-image .topbar-wrapper-boxes .inner-wrapper .topbar-box {
       color: #fff; }
-    .about-the-studio-image .topbar-wrapper-boxes .inner-wrapper .topbar-box-social-media img {
+    .white-image .topbar-wrapper-boxes .inner-wrapper .topbar-box-social-media img {
       width: 60px;
       height: 23px; }
 
