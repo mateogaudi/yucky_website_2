@@ -273,7 +273,6 @@ footer {
   height: 48px;
   width: 140px; }
 
-<<<<<<< HEAD
 .title-number-one-subpage-wrapper .header-description-wrapper {
   border-bottom: none; }
   .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box {
@@ -338,7 +337,6 @@ footer {
           position: absolute;
           right: 20px;
           top: 20px; }
-=======
 .project-subpage-wrapper .header-description-wrapper {
   border-bottom: 0;
   padding-bottom: 50px; }
@@ -372,7 +370,6 @@ footer {
           height: 10px;
           width: 10px;
           transform: rotate(-45deg); }
->>>>>>> main
 
 .button-title {
   font-size: 22px;
