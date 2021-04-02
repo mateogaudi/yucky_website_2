@@ -1,9 +1,12 @@
 .project-subpage-wrapper {
   .header-description-wrapper {
-    border-bottom:0;
-    padding-bottom: 50px;
+    border-bottom:none;
+    padding:75px 0 100px;
     .inner-wrapper{
      .heading-box{
+      .button-box-wrapper{
+        padding-bottom: 50px;
+      }
       .headings{
        span{
         color:$black;

@@ -50,6 +50,10 @@ body {
   width: 75%;
   margin: 0 auto; }
 
+.last-margin {
+  margin-bottom: 0;
+  padding: 0; }
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -239,37 +243,35 @@ footer {
 .white-image .logo-bar-nav a {
   color: #fff; }
 
-.white-image {
+.about-the-studio .white-image {
   background: #000;
   background-image: url("../../assets/images/logotypes_white.png"); }
-  .white-image .topbar-wrapper-boxes {
+  .about-the-studio .white-image .topbar-wrapper-boxes {
     border-bottom: 1px solid #fff; }
-    .white-image .topbar-wrapper-boxes .inner-wrapper .topbar-box {
+    .about-the-studio .white-image .topbar-wrapper-boxes .inner-wrapper .topbar-box {
       color: #fff; }
-    .white-image .topbar-wrapper-boxes .inner-wrapper .topbar-box-social-media img {
+    .about-the-studio .white-image .topbar-wrapper-boxes .inner-wrapper .topbar-box-social-media img {
       width: 60px;
       height: 23px; }
-
-.header-description-wrapper {
+.about-the-studio .header-description-wrapper {
   padding: 75px 0 100px; }
-  .header-description-wrapper .inner-wrapper .heading-box {
+  .about-the-studio .header-description-wrapper .inner-wrapper .heading-box {
     width: 50%; }
-    .header-description-wrapper .inner-wrapper .heading-box .headings {
+    .about-the-studio .header-description-wrapper .inner-wrapper .heading-box .headings {
       padding: 50px 0 50px; }
-      .header-description-wrapper .inner-wrapper .heading-box .headings span {
+      .about-the-studio .header-description-wrapper .inner-wrapper .heading-box .headings span {
         display: block;
         color: white; }
-    .header-description-wrapper .inner-wrapper .heading-box .header-description-text .main-description span {
+    .about-the-studio .header-description-wrapper .inner-wrapper .heading-box .header-description-text .main-description span {
       color: #fff; }
-  .header-description-wrapper .inner-wrapper .picture-box {
+  .about-the-studio .header-description-wrapper .inner-wrapper .picture-box {
     width: 50%;
     position: relative; }
-    .header-description-wrapper .inner-wrapper .picture-box img {
+    .about-the-studio .header-description-wrapper .inner-wrapper .picture-box img {
       position: absolute;
       right: 0;
       bottom: -100px; }
-
-.logo-bar .inner-wrapper .logo-bar-image img {
+.about-the-studio .logo-bar .inner-wrapper .logo-bar-image img {
   height: 48px;
   width: 140px; }
 
@@ -301,6 +303,84 @@ footer {
           height: 10px;
           width: 10px;
           transform: rotate(-45deg); }
+
+.project-subpage-wrapper .header-description-wrapper {
+  border-bottom: none;
+  padding: 75px 0 100px; }
+  .project-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .button-box-wrapper {
+    padding-bottom: 50px; }
+  .project-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .headings span {
+    color: #000; }
+
+.title-number-one-subpage .title-number-one-subpage-wrapper .header-description-wrapper {
+  border-bottom: none;
+  padding-bottom: 0; }
+  .title-number-one-subpage .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .button-box-wrapper {
+    padding-top: 75px; }
+  .title-number-one-subpage .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box {
+    width: 100%; }
+    .title-number-one-subpage .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .headings {
+      padding: 50px 0; }
+      .title-number-one-subpage .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .headings .main-largest-heading span {
+        color: #000; }
+    .title-number-one-subpage .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .header-description-text .main-description span {
+      color: #000; }
+    .title-number-one-subpage .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box {
+      padding: 100px 0;
+      display: flex;
+      justify-content: space-between; }
+      .title-number-one-subpage .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .social-media-wrapper-boxes {
+        height: 250px;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-end; }
+        .title-number-one-subpage .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .social-media-wrapper-boxes .social-media-title {
+          margin-bottom: 20px; }
+        .title-number-one-subpage .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .social-media-wrapper-boxes .social-media-box .last-icon-social-media {
+          margin-left: 50px; }
+      .title-number-one-subpage .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .box {
+        height: 150px;
+        width: 480px;
+        border-radius: 5px;
+        border: 1px solid #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative; }
+        .title-number-one-subpage .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .box .item-wrapper {
+          position: absolute;
+          left: 20px;
+          top: 20px; }
+          .title-number-one-subpage .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .box .item-wrapper img {
+            width: 25px;
+            height: 23px; }
+        .title-number-one-subpage .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .box .social-media-title {
+          position: absolute;
+          right: 20px;
+          top: 20px; }
+      .title-number-one-subpage .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .box-large {
+        height: 400px;
+        width: 480px;
+        padding: 80px 0;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid #000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: column;
+        position: relative; }
+        .title-number-one-subpage .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .box-large .item-wrapper {
+          position: absolute;
+          left: 20px;
+          top: 20px; }
+          .title-number-one-subpage .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .box-large .item-wrapper img {
+            width: 25px;
+            height: 28px; }
+        .title-number-one-subpage .title-number-one-subpage-wrapper .header-description-wrapper .inner-wrapper .heading-box .wrapper-box .title-number-one-box .box-large .social-media-title {
+          position: absolute;
+          right: 20px;
+          top: 20px; }
 
 .button-title {
   font-size: 22px;
@@ -542,18 +622,47 @@ footer {
   .project-subpage-boxes-wrapper .inner-wrapper .boxes-wrapper .information-box h3 {
     margin-bottom: 20px; }
 
-.image-wrapper-boxes {
+.logotypes-subpage .image-wrapper-boxes {
   padding: 100px 0;
   border-bottom: 1px solid #000; }
-  .image-wrapper-boxes .inner-wrapper .box-image {
+  .logotypes-subpage .image-wrapper-boxes .inner-wrapper .box-image {
     height: 800px;
     width: 100%;
     background: #e3e3e3;
     margin-bottom: 25px; }
-  .image-wrapper-boxes .inner-wrapper .last-margin {
-    margin-bottom: 0px; }
+    .logotypes-subpage .image-wrapper-boxes .inner-wrapper .box-image .last-margin {
+      margin-bottom: 0px; }
+.logotypes-subpage .project-wrapper {
+  padding-bottom: 100px; }
 
-.project-wrapper {
-  margin-bottom: 100px; }
+.title-number-one-subpage .title-number-one-subpage-wrapper .image-wrapper-boxes {
+  padding: 0;
+  border-bottom: none; }
+  .title-number-one-subpage .title-number-one-subpage-wrapper .image-wrapper-boxes .inner-wrapper .box-image {
+    height: 800px;
+    width: 100%;
+    background: #e3e3e3;
+    margin-bottom: 10px; }
+  .title-number-one-subpage .title-number-one-subpage-wrapper .image-wrapper-boxes .inner-wrapper .last-margin {
+    margin-bottom: 0;
+    padding: 0; }
+  .title-number-one-subpage .title-number-one-subpage-wrapper .image-wrapper-boxes .inner-wrapper .header-description-text {
+    padding: 100px 0 50px; }
+.title-number-one-subpage .title-number-one-subpage-wrapper .title-number-one-mini-picture-wrapper .inner-wrapper .headings {
+  padding-bottom: 100px; }
+.title-number-one-subpage .title-number-one-subpage-wrapper .title-number-one-mini-picture-wrapper .inner-wrapper .mini-picture-wrapper-boxes {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .title-number-one-subpage .title-number-one-subpage-wrapper .title-number-one-mini-picture-wrapper .inner-wrapper .mini-picture-wrapper-boxes .mini-picture-box {
+    height: 530px;
+    width: 530px;
+    background: #e3e3e3; }
+.title-number-one-subpage .title-number-one-subpage-wrapper .more-project-wrapper {
+  border-bottom: 1px solid #000; }
+.title-number-one-subpage .title-number-one-subpage-wrapper .project-wrapper {
+  padding-bottom: 150px; }
 
 /*# sourceMappingURL=stylesheet.css.map */

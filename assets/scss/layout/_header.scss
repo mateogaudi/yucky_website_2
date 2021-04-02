@@ -1,5 +1,4 @@
 @import "./nav";
-
 .topbar-wrapper-boxes {
   height: 100px;
   margin: 0 auto;
@@ -33,9 +32,9 @@
     .logo-bar-image {
       width: 50%;
       img {
-        transform: $timeScale; 
-        &:hover{
-          transform: scale(.95);
+        transform: $timeScale;
+        &:hover {
+          transform: scale(0.95);
         }
       }
     }
@@ -55,8 +54,8 @@
       flex-wrap: wrap;
       .header-description-heading {
         width: 50%;
-        &:hover{
-          span{
+        &:hover {
+          span {
             transition: $primaryTransition;
             display: block;
             &:hover {
@@ -82,7 +81,7 @@
         span {
           display: block;
           margin-bottom: 3px;
-          &.bold{
+          &.bold {
             font-size: 18px;
             font-weight: 700;
           }
@@ -96,4 +95,3 @@
     }
   }
 }
-
