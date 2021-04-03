@@ -118,6 +118,8 @@ footer {
         flex-flow: column; }
         footer .wrapper-content .inner-wrapper .headings-wrapper-box .headings-box:last-of-type {
           text-align: right; }
+        footer .wrapper-content .inner-wrapper .headings-wrapper-box .headings-box a {
+          color: #fff; }
         footer .wrapper-content .inner-wrapper .headings-wrapper-box .headings-box h6 {
           color: #29a89e;
           margin-bottom: 5px; }
