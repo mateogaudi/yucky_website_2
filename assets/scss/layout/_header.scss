@@ -40,19 +40,19 @@
     }
   }
 }
-.header-description-wrapper {
+.header-wrapper {
   padding-bottom: 150px;
   border-bottom: 1px solid $black;
   .inner-wrapper {
     display: flex;
     flex-wrap: wrap;
-    .header-description-box {
+    .header-box {
       width: 100%;
       justify-content: space-between;
       padding: 50px 0;
       display: flex;
       flex-wrap: wrap;
-      .header-description-heading {
+      .header-heading {
         width: 50%;
         &:hover {
           span {
@@ -64,7 +64,7 @@
           }
         }
       }
-      .header-description-information {
+      .header-information {
         align-self: flex-end;
         text-align: right;
         display: flex;
@@ -88,7 +88,7 @@
         }
       }
     }
-    .header-description-text {
+    .header-text {
       span {
         display: block;
       }

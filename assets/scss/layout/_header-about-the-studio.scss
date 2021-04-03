@@ -1,6 +1,5 @@
 @import "./nav";
 .about-the-studio{
-
   .white-image {
     background: $black;
     background-image: url("../../assets/images/logotypes_white.png");
@@ -19,7 +18,7 @@
       }
     }
   }
-  .header-description-wrapper {
+  .header-wrapper {
     padding: 75px 0 100px;
     .inner-wrapper {
       .heading-box {
@@ -31,7 +30,7 @@
             color: white;
           }
         }
-        .header-description-text {
+        .header-text {
           .main-description {
             span {
               color: $white;
