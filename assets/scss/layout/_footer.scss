@@ -37,6 +37,7 @@ footer {
         width: 50%;
         img {
           transition: $timeScale;
+          transition: 0.25s ease-in;
           &:hover {
             transform: scale(0.95);
           }

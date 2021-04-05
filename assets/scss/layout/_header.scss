@@ -33,6 +33,7 @@
       width: 50%;
       img {
         transform: $timeScale;
+        transition: 0.25s ease-in;
         &:hover {
           transform: scale(0.95);
         }
@@ -54,10 +55,12 @@
       flex-wrap: wrap;
       .header-heading {
         width: 50%;
+        transition:1s ease-in;
         &:hover {
           span {
             transition: $primaryTransition;
             display: block;
+            transition:1s ease-in;
             &:hover {
               transform: translateX(25%);
             }
