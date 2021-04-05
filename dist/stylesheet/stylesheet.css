@@ -434,29 +434,14 @@ footer {
   .project-boxes-wrapper .button-wrapper .main-button-change:hover {
     border: 1px solid #000; }
 
-.button-box-wrapper .button {
-  transition: 0.8s ease all;
+.button-box-wrapper a img {
   width: 200px;
-  height: 20px;
-  cursor: pointer;
-  position: relative; }
-  .button-box-wrapper .button:hover {
-    transform: translateX(50%); }
-  .button-box-wrapper .button a .button-arrow {
-    width: 200px;
-    background: #29a89e;
-    height: 2px; }
-    .button-box-wrapper .button a .button-arrow:before {
-      content: " ";
-      position: absolute;
-      right: 0;
-      top: -5px;
-      border: 2px solid #29a89e;
-      border-bottom: 0;
-      border-right: 0;
-      height: 10px;
-      width: 10px;
-      transform: rotate(-225deg); }
+  height: 20px; }
+
+.yucky-studio .button-box-wrapper a img {
+  transform: rotate(180deg);
+  width: 200px;
+  height: 20px; }
 
 .bar-arrow {
   width: 50%;
@@ -477,29 +462,6 @@ footer {
       left: 9px;
       top: 9px;
       position: absolute; }
-
-.button-box-wrapper {
-  z-index: 5; }
-  .button-box-wrapper .exit-button {
-    width: 200px;
-    left: 0;
-    cursor: pointer;
-    position: relative; }
-    .button-box-wrapper .exit-button a .button-arrow {
-      width: 200px;
-      background: #29a89e;
-      height: 2px; }
-      .button-box-wrapper .exit-button a .button-arrow:before {
-        content: " ";
-        position: absolute;
-        left: 0;
-        top: -5px;
-        border: 2px solid #29a89e;
-        border-bottom: 0;
-        border-right: 0;
-        height: 10px;
-        width: 10px;
-        transform: rotate(-45deg); }
 
 .project-wrapper {
   padding-bottom: 50px; }
