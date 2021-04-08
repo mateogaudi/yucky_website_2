@@ -55,14 +55,14 @@
       flex-wrap: wrap;
       .header-heading {
         width: 50%;
-        transition:1s ease-in;
-        &:hover {
-          span {
-            transition: $primaryTransition;
+        .main-heading{
+          span{
             display: block;
-            transition:1s ease-in;
-            &:hover {
-              transform: translateX(25%);
+          &:first-of-type{
+              transition: .25s ease transform;
+              &:hover{
+                transform: translateX(35px);
+              }
             }
           }
         }

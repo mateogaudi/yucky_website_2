@@ -5,36 +5,31 @@
 }
 .button-wrapper {
   height: 61px;
+  line-height: 61px;
   width: 190px;
   position: relative;
   overflow: hidden;
-  &:hover {
-    .main-button-change {
+  span{
+    display: block;
+    height: inherit;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 22px;
+    &.main {
+      background: $primaryColor;
+      color: $white;
+    }
+    &.overlay {
+      transition: 0.25s ease-in-out;
+      color: $primaryColor;
+      background: $darkGray;
       transform: translateY(0);
     }
   }
-  .main-button {
-    background: $primaryColor;
-    height: 100%;
-    width: 100%;
-    border: 0;
-    border-radius: 5%;
-  }
-  .main-button-change {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    border-radius: 5%;
-    border: 0;
-    color: $primaryColor;
-    background: $darkGray;
-    transform: translateY(100%);
-    right: 20px;
-    transition: $timeScale;
-    outline: $white;
-    transition: 0.5s ease-in-out;
+  &:hover {
+    span.overlay {
+      transform: translateY(-100%);
+    }
   }
 }
 .project-boxes-wrapper {
@@ -59,10 +54,18 @@
   }
 }
 .yucky-studio {
-  .button-box-wrapper {
     a {
-      img {
+      .button-box-wrapper {
+        padding: 25px 0px 25px 25px;
+        width: 200px;
         transform: rotate(180deg);
+        &:hover{
+          img{
+            transform: translateX(-25px);
+          }
+        }
+        img {
+        transition: .25s ease all;
         width: 200px;
         height: 20px;
       }

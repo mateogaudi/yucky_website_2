@@ -54,7 +54,7 @@ body {
   margin-bottom: 0;
   padding: 0; }
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -102,7 +102,8 @@ table {
   border-spacing: 0; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: unset; }
 
 footer {
   background: #fff; }
@@ -138,21 +139,26 @@ footer {
           footer .bar-wrapper .inner-wrapper .bar-logo img:hover {
             transform: scale(0.95); }
 
-.logo-bar-nav a {
-  padding: 20px;
-  color: #000;
-  position: relative; }
-  .logo-bar-nav a:before {
-    content: " ";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    left: 0;
-    bottom: 10px;
-    transition: 0.25s ease all;
-    transition: 0.5s ease-in; }
-  .logo-bar-nav a:hover:before {
-    background-color: #29a89e; }
+.logo-bar-nav ul {
+  display: flex; }
+  .logo-bar-nav ul li {
+    margin-right: 5px;
+    position: relative; }
+    .logo-bar-nav ul li a {
+      padding: 20px 10px; }
+      .logo-bar-nav ul li a:after {
+        position: absolute;
+        content: ' ';
+        overflow: hidden;
+        width: 0.00%;
+        height: 2px;
+        background-color: #29a89e;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -20px;
+        transition: .25s ease all; }
+      .logo-bar-nav ul li a:hover:after {
+        width: 100%; }
 
 .white-image .logo-bar-nav a {
   color: #fff; }
@@ -203,14 +209,13 @@ footer {
       display: flex;
       flex-wrap: wrap; }
       .header-wrapper .inner-wrapper .header-box .header-heading {
-        width: 50%;
-        transition: 1s ease-in; }
-        .header-wrapper .inner-wrapper .header-box .header-heading:hover span {
-          transition: 0.8s ease all;
-          display: block;
-          transition: 1s ease-in; }
-          .header-wrapper .inner-wrapper .header-box .header-heading:hover span:hover {
-            transform: translateX(25%); }
+        width: 50%; }
+        .header-wrapper .inner-wrapper .header-box .header-heading .main-heading span {
+          display: block; }
+          .header-wrapper .inner-wrapper .header-box .header-heading .main-heading span:first-of-type {
+            transition: .25s ease transform; }
+            .header-wrapper .inner-wrapper .header-box .header-heading .main-heading span:first-of-type:hover {
+              transform: translateX(35px); }
       .header-wrapper .inner-wrapper .header-box .header-information {
         align-self: flex-end;
         text-align: right;
@@ -232,21 +237,26 @@ footer {
     .header-wrapper .inner-wrapper .header-text span {
       display: block; }
 
-.logo-bar-nav a {
-  padding: 20px;
-  color: #000;
-  position: relative; }
-  .logo-bar-nav a:before {
-    content: " ";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    left: 0;
-    bottom: 10px;
-    transition: 0.25s ease all;
-    transition: 0.5s ease-in; }
-  .logo-bar-nav a:hover:before {
-    background-color: #29a89e; }
+.logo-bar-nav ul {
+  display: flex; }
+  .logo-bar-nav ul li {
+    margin-right: 5px;
+    position: relative; }
+    .logo-bar-nav ul li a {
+      padding: 20px 10px; }
+      .logo-bar-nav ul li a:after {
+        position: absolute;
+        content: ' ';
+        overflow: hidden;
+        width: 0.00%;
+        height: 2px;
+        background-color: #29a89e;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -20px;
+        transition: .25s ease all; }
+      .logo-bar-nav ul li a:hover:after {
+        width: 100%; }
 
 .white-image .logo-bar-nav a {
   color: #fff; }
@@ -397,32 +407,26 @@ footer {
 
 .button-wrapper {
   height: 61px;
+  line-height: 61px;
   width: 190px;
   position: relative;
   overflow: hidden; }
-  .button-wrapper:hover .main-button-change {
-    transform: translateY(0); }
-  .button-wrapper .main-button {
-    background: #29a89e;
-    height: 100%;
-    width: 100%;
-    border: 0;
-    border-radius: 5%; }
-  .button-wrapper .main-button-change {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    border-radius: 5%;
-    border: 0;
-    color: #29a89e;
-    background: #e3e3e3;
-    transform: translateY(100%);
-    right: 20px;
-    transition: 0.25s ease all;
-    outline: #fff;
-    transition: 0.5s ease-in-out; }
+  .button-wrapper span {
+    display: block;
+    height: inherit;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 22px; }
+    .button-wrapper span.main {
+      background: #29a89e;
+      color: #fff; }
+    .button-wrapper span.overlay {
+      transition: 0.25s ease-in-out;
+      color: #29a89e;
+      background: #e3e3e3;
+      transform: translateY(0); }
+  .button-wrapper:hover span.overlay {
+    transform: translateY(-100%); }
 
 .project-boxes-wrapper .button-wrapper {
   position: absolute;
@@ -436,10 +440,16 @@ footer {
   width: 200px;
   height: 20px; }
 
-.yucky-studio .button-box-wrapper a img {
-  transform: rotate(180deg);
+.yucky-studio a .button-box-wrapper {
+  padding: 25px 0px 25px 25px;
   width: 200px;
-  height: 20px; }
+  transform: rotate(180deg); }
+  .yucky-studio a .button-box-wrapper:hover img {
+    transform: translateX(-25px); }
+  .yucky-studio a .button-box-wrapper img {
+    transition: .25s ease all;
+    width: 200px;
+    height: 20px; }
 
 .bar-arrow {
   width: 50%;
@@ -481,7 +491,7 @@ footer {
           z-index: 5; }
           .project-wrapper .inner-wrapper .boxes-wrapper .picture-box .social-media-box .last-icon-social-media {
             margin-left: 67px; }
-        .project-wrapper .inner-wrapper .boxes-wrapper .picture-box .images-box img {
+        .project-wrapper .inner-wrapper .boxes-wrapper .picture-box .images-box {
           height: 600px;
           width: 800px;
           background: #e3e3e3;
@@ -510,13 +520,15 @@ footer {
   padding: 50px 0 150px; }
   .more-project-wrapper .inner-wrapper .wrapper-box .heading {
     margin-bottom: 20px; }
+    .more-project-wrapper .inner-wrapper .wrapper-box .heading .medium-description span {
+      font-weight: 400; }
 
 .logotypes-wrapper {
-  transition: 1s ease-in; }
+  transition: .25s ease-in; }
   .logotypes-wrapper:hover {
     color: white;
     background: #29a89e;
-    transition: 0.5s ease-in; }
+    transition: .25s ease-in; }
   .logotypes-wrapper .image {
     background-image: url("../../assets/images/bck_logotypes.png");
     width: 100%;
@@ -525,7 +537,8 @@ footer {
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    background-size: cover; }
     .logotypes-wrapper .image .heading-button-wrapper-boxes {
       height: 25%;
       display: flex;
