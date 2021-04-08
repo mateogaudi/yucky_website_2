@@ -1,7 +1,9 @@
-.logotypes-section-wrapper {
+.logotypes-wrapper {
+  transition: 1s ease-in;
   &:hover{
     color: white;
     background:$primaryColor;
+    transition: 0.5s ease-in;
   }
   .image {
     background-image: url("../../assets/images/bck_logotypes.png");

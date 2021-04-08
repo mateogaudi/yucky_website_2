@@ -1,60 +1,61 @@
 @import "./nav";
-
-.white-image {
-  background: $black;
-  background-image: url("../../assets/images/logotypes_white.png");
-  .topbar-wrapper-boxes {
-    border-bottom: 1px solid $white;
-    .inner-wrapper {
-      .topbar-box {
-        color: $white;
-      }
-      .topbar-box-social-media{
-        img{
-          width:60px;
-          height:23px;
+.about-the-studio{
+  .white-image {
+    background: $black;
+    background-image: url("../../assets/images/logotypes_white.png");
+    .topbar-wrapper-boxes {
+      border-bottom: 1px solid $white;
+      .inner-wrapper {
+        .topbar-box {
+          color: $white;
         }
-      }
-    }
-  }
-}
-.header-description-wrapper {
-  padding: 75px 0 100px;
-  .inner-wrapper {
-    .heading-box {
-      width: 50%;
-      .headings {
-        padding: 50px 0 50px;
-        span {
-          display: block;
-          color: white;
-        }
-      }
-      .header-description-text {
-        .main-description {
-          span {
-            color: $white;
+        .topbar-box-social-media{
+          img{
+            width:60px;
+            height:23px;
           }
         }
       }
     }
-    .picture-box {
-      width: 50%;
-      position: relative;
-      img {
-        position: absolute;
-        right: 0;
-        bottom: -100px;
+  }
+  .header-wrapper {
+    padding: 75px 0 100px;
+    .inner-wrapper {
+      .heading-box {
+        width: 50%;
+        .headings {
+          padding: 50px 0 50px;
+          span {
+            display: block;
+            color: white;
+          }
+        }
+        .header-text {
+          .main-description {
+            span {
+              color: $white;
+            }
+          }
+        }
+      }
+      .picture-box {
+        width: 50%;
+        position: relative;
+        img {
+          position: absolute;
+          right: 0;
+          bottom: -100px;
+        }
       }
     }
   }
-}
-.logo-bar {
-  .inner-wrapper {
-    .logo-bar-image {
-      img {
-        height: 48px;
-        width: 140px;
+  .logo-bar {
+    .inner-wrapper {
+      .logo-bar-image {
+        img {
+          height: 48px;
+          width: 140px;
+        }
       }
     }
   }

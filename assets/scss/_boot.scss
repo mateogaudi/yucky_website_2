@@ -10,6 +10,8 @@
 @import "./layout/header";
 @import "./layout/header-about-the-studio";
 @import "./layout/header-logotypes-subpage";
+@import "./layout/header-project-subpage";
+@import "./layout/header-title-number-one-subpage";
 //components
 @import "./components/button";
 // sections
@@ -20,5 +22,6 @@
 @import "./sections/step-by-step";
 @import "./sections/project-subpage";
 @import "./sections/logotypes-subpage-image";
+@import "./sections/title-number-one-subpage";
 // node_modules
 @import "../../node_modules/font-awesome/css/font-awesome.min.css";

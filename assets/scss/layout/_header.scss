@@ -1,5 +1,4 @@
 @import "./nav";
-
 .topbar-wrapper-boxes {
   height: 100px;
   margin: 0 auto;
@@ -33,39 +32,42 @@
     .logo-bar-image {
       width: 50%;
       img {
-        transform: $timeScale; 
-        &:hover{
-          transform: scale(.95);
+        transform: $timeScale;
+        transition: 0.25s ease-in;
+        &:hover {
+          transform: scale(0.95);
         }
       }
     }
   }
 }
-.header-description-wrapper {
+.header-wrapper {
   padding-bottom: 150px;
   border-bottom: 1px solid $black;
   .inner-wrapper {
     display: flex;
     flex-wrap: wrap;
-    .header-description-box {
+    .header-box {
       width: 100%;
       justify-content: space-between;
       padding: 50px 0;
       display: flex;
       flex-wrap: wrap;
-      .header-description-heading {
+      .header-heading {
         width: 50%;
-        &:hover{
-          span{
+        transition:1s ease-in;
+        &:hover {
+          span {
             transition: $primaryTransition;
             display: block;
+            transition:1s ease-in;
             &:hover {
               transform: translateX(25%);
             }
           }
         }
       }
-      .header-description-information {
+      .header-information {
         align-self: flex-end;
         text-align: right;
         display: flex;
@@ -82,18 +84,17 @@
         span {
           display: block;
           margin-bottom: 3px;
-          &.bold{
+          &.bold {
             font-size: 18px;
             font-weight: 700;
           }
         }
       }
     }
-    .header-description-text {
+    .header-text {
       span {
         display: block;
       }
     }
   }
 }
-
