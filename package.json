@@ -18,5 +18,18 @@
   "bugs": {
     "url": "https://github.com/mateogaudi/yucky_website_2/issues"
   },
-  "homepage": "https://github.com/mateogaudi/yucky_website_2#readme"
+  "homepage": "https://github.com/mateogaudi/yucky_website_2#readme",
+  "dependencies": {
+    "@babel/core": "^7.13.16",
+    "font-awesome": "^4.7.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify-es": "^2.0.0",
+    "node-sass": "^5.0.0"
+  }
 }
