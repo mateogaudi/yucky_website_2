@@ -50,7 +50,7 @@ gulp.task("compressJs", function() {
         .pipe(babel({
             presets: ['@babel/env']
         }))
-        .pipe(gulp.dest("./dist/js"));
+        .pipe(gulp.dest("./src/dist/js"));
 });
 
 gulp.task("watch", function() {

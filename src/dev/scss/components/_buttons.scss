@@ -81,6 +81,11 @@
     height: 30px;
     background: $primaryColor;
     position: relative;
+    cursor: pointer;
+    transition: $primaryTransition;
+    &:hover{
+      transform: scale(.95);
+    }
     &::before {
       width: 0;
       height: 0;

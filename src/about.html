@@ -10,7 +10,7 @@
   <body class="about-the-studio">
     <div class="container">
       <div class="white-image">
-        <header>
+        <header id="header">
           <div class="topbar-wrapper-boxes">
             <div class="inner-wrapper">
               <div class="topbar-box">
@@ -44,7 +44,7 @@
                 <ul>
                   <li><a href="projects.html">Projects</a></li>
                   <li><a href="about.html">About the Studio</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a id="js_contactMenuClick" href="#footer">Contact</a></li>
                 </ul>
               </nav>
             </div>
@@ -111,7 +111,7 @@
             </div>
           </section>
         </main>
-        <footer>
+        <footer id="footer">
           <div class="wrapper-content">
             <div class="inner-wrapper">
               <div class="headings-wrapper-box">
@@ -136,9 +136,7 @@
                <img src="assets/images/small_logo.png">
               </a>
               <div class="bar-arrow">
-                <a href="#">
-                  <div class="bar-button"></div>
-                </a>
+                <a href="#header" id="js_scrollTop" class="bar-button"></a>
               </div>
             </div>
            </div>
@@ -146,3 +144,5 @@
     </div>
   </body>
 </html>
+
+<script src="dist/js/all.min.js"></script>
