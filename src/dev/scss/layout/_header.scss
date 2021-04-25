@@ -1,4 +1,8 @@
-@import "nav";
+#header{
+  .hamburger{
+    display: none;
+  }
+}
 .topbar-wrapper-boxes {
   height: 100px;
   margin: 0 auto;
@@ -24,13 +28,13 @@
   }
 }
 .logo-bar {
+  @import "nav";
   .inner-wrapper {
     display: flex;
     align-items: center;
     padding: 75px 0 25px;
     justify-content: space-between;
     .logo-bar-image {
-      width: 50%;
       img {
         transform: $timeScale;
         transition: 0.25s ease-in;
@@ -94,6 +98,53 @@
     .header-text {
       span {
         display: block;
+      }
+    }
+  }
+}
+
+@media(max-width: 767px){
+  #header{
+    border-bottom: 1px solid #000;
+    .hamburger{
+      display: block;
+    }
+    .topbar-wrapper-boxes{
+      display: none;
+    }
+    .logo-bar{
+      .logo-bar-nav{
+        position: fixed;
+        z-index: 500;
+        transform: translateX(-200px);
+        width: 200px;
+        height: 100%;
+        background: #000;
+        left: 0;
+        top: 0;
+        box-sizing: border-box;
+        color: #fff;
+        overflow: hidden;
+        transition: $primaryTransition;
+        ul{
+          padding: 50px 25px;
+          flex-flow:column;
+          li{
+            margin: 0 auto 25px;
+            a{
+              padding: 10px 0;
+              &:after{
+                content: unset;
+              }
+            }
+          }
+        }
+        &.active{
+          transform: translateX(0px);
+        }
+      }
+      .inner-wrapper{
+        padding: 25px 0;
       }
     }
   }
