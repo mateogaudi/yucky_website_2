@@ -14,7 +14,7 @@ sass.compiler = require("node-sass");
 gulp.task("sass", function() {
     return gulp
         .src([
-            "./dev/scss/_boot.scss",
+            "./src/dev/scss/_boot.scss",
         ])
         .pipe(concat("all.min.css"))
         .pipe(sass().on("error", sass.logError))
@@ -28,12 +28,12 @@ gulp.task("sass", function() {
                 compatibility: "ie8"
             })
         )
-        .pipe(gulp.dest("./dist/style"));
+        .pipe(gulp.dest("./src/dist/style"));
 });
 
 gulp.task("debugJs", function() {
     return gulp
-        .src("./dev/js/**/*.js")
+        .src("./src/dev/js/**/*.js")
         .pipe(eslint())
         .pipe(eslint.format())
         .pipe(eslint.failAfterError());
@@ -43,7 +43,7 @@ gulp.task("compressJs", function() {
     return gulp
         .src([
             "./node_modules/jquery/dist/jquery.js",
-            "./dev/js/*.js"
+            "./src/dev/js/*.js"
         ])
         .pipe(concat("all.min.js"))
         .pipe(uglify())
@@ -54,6 +54,6 @@ gulp.task("compressJs", function() {
 });
 
 gulp.task("watch", function() {
-    gulp.watch("./dev/scss/**/*.scss", gulp.series("sass"));
-    gulp.watch("./dev/js/**/*.js", gulp.series("compressJs"));
+    gulp.watch("./src/dev/scss/**/*.scss", gulp.series("sass"));
+    gulp.watch("./src/dev/js/**/*.js", gulp.series("compressJs"));
 });
