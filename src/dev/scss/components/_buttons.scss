@@ -53,25 +53,27 @@
     }
   }
 }
-.yucky-studio {
-    a {
-      .button-box-wrapper {
+  a {
+    .button-box-wrapper {
+      padding: 25px 0px 25px 0px;
+      &.rotated{
         padding: 25px 0px 25px 25px;
-        width: 200px;
         transform: rotate(180deg);
-        &:hover{
-          img{
-            transform: translateX(-25px);
-          }
-        }
-        img {
-        transition: .25s ease all;
-        width: 200px;
-        height: 20px;
       }
+      width: 200px;
+      &:hover{
+        img{
+          transform: translateX(-25px);
+        }
+      }
+      img {
+      transition: .25s ease all;
+      width: 200px;
+      height: 20px;
     }
   }
 }
+
 .bar-arrow {
   width: 50%;
   display: flex;
