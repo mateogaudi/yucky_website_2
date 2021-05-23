@@ -1,4 +1,4 @@
-.logotypes-wrapper {
+.logotypes{
   transition: .25s ease-in;
   &:hover{
     color: white;
@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     background-size: cover;
-    .heading-button-wrapper-boxes{
+    .logotypes-button{
       height: 25%;
       display: flex;
       flex-flow: column;

@@ -1,4 +1,4 @@
-.project-wrapper {
+.image-wrapper {
   padding-bottom: 50px;
   .inner-wrapper {
     display: flex;
@@ -10,7 +10,7 @@
       display: flex;
       justify-content: space-between;
       width: 100%;
-      .picture-box {
+      .image-box {
         position: relative;
         .social-media-box{
           position: absolute;
@@ -21,14 +21,14 @@
             margin-left: 67px;
           }
         }
-        .images-box {
+        .img{
           height: 600px;
           width: 800px;
-          background: $darkGray;
+          background: $darkGray; 
           border: $white;
         }
       }
-      .information-box {
+      .information{
         display: flex;
         flex-flow: column;
         justify-content: flex-end;

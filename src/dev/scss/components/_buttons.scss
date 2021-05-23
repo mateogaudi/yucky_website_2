@@ -32,15 +32,17 @@
     }
   }
 }
-.project-boxes-wrapper {
-  .button-wrapper {
-    position: absolute;
-    right: 5%;
-    bottom: 5%;
-    z-index: 5;
-    .main-button-change {
-      &:hover {
-        border: 1px solid $black;
+.project-wrapper{
+  .boxes-wrapper {
+    .button-wrapper {
+      position: absolute;
+      right: 5%;
+      bottom: 5%;
+      z-index: 5;
+      .main-button-change {
+        &:hover {
+          border: 1px solid $black;
+        }
       }
     }
   }
