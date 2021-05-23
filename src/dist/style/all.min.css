@@ -213,7 +213,7 @@ footer {
         .header-wrapper .inner-wrapper .header-box .heading .main-heading span {
           display: block; }
           .header-wrapper .inner-wrapper .header-box .heading .main-heading span:first-of-type {
-            transition: .25s ease transform; }
+            transition: 0.25s ease transform; }
             .header-wrapper .inner-wrapper .header-box .heading .main-heading span:first-of-type:hover {
               transform: translateX(35px); }
       .header-wrapper .inner-wrapper .header-box .information {
@@ -237,6 +237,41 @@ footer {
     .header-wrapper .inner-wrapper .text span {
       display: block; }
 
+@media (max-width: 1439px) {
+  .main-page-yucky .header-wrapper {
+    padding-bottom: 100px; } }
+@media (max-width: 1024px) {
+  .main-page-yucky .logo-bar .inner-wrapper {
+    padding: 50px 0 25px; }
+  .main-page-yucky .header-wrapper {
+    padding-bottom: 0px; }
+    .main-page-yucky .header-wrapper .inner-wrapper .header-box {
+      display: block;
+      text-align: center;
+      padding: 25px 0; }
+      .main-page-yucky .header-wrapper .inner-wrapper .header-box:nth-last-child(1) {
+        padding-bottom: 75px; }
+      .main-page-yucky .header-wrapper .inner-wrapper .header-box .heading {
+        width: 100%; }
+        .main-page-yucky .header-wrapper .inner-wrapper .header-box .heading .main-heading span:nth-child(1):hover {
+          transform: translateX(0px); }
+      .main-page-yucky .header-wrapper .inner-wrapper .header-box .information {
+        display: none; }
+  .main-page-yucky .text {
+    text-align: center; } }
+@media (max-width: 767px) {
+  .main-page-yucky .header-wrapper {
+    padding-bottom: 0px; }
+    .main-page-yucky .header-wrapper .inner-wrapper {
+      width: 85%; }
+      .main-page-yucky .header-wrapper .inner-wrapper .header-box {
+        display: block;
+        text-align: center;
+        padding: 25px 0; }
+        .main-page-yucky .header-wrapper .inner-wrapper .header-box:nth-last-child(1) {
+          padding-bottom: 50px; }
+        .main-page-yucky .header-wrapper .inner-wrapper .header-box .heading .main-heading {
+          font-size: 130px; } }
 @media (max-width: 767px) {
   #header {
     border-bottom: 1px solid #000; }
