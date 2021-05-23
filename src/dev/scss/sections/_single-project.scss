@@ -21,18 +21,18 @@
         }
       }
     }
-    .title-mini-picture-wrapper {
+    .title-mini-picture{
       .inner-wrapper {
         .headings {
           padding-bottom: 100px;
         }
-        .mini-picture-wrapper-boxes {
+        .mini-picture-boxes {
           width: 100%;
           margin-bottom: 10px;
           display: flex;
           flex-wrap: wrap;
           justify-content: space-between;
-          .mini-picture-box {
+          .mini-picture{
             height: 530px;
             width: 530px;
             background: $darkGray;
@@ -42,7 +42,7 @@
         }
       }
     }
-    .more-project-wrapper {
+    .more-wrapper {
       border-bottom: 1px solid $black;
     }
     .project-wrapper {
