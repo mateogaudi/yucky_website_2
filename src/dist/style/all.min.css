@@ -140,6 +140,21 @@ footer {
           footer .bar-wrapper .inner-wrapper .bar-logo img:hover {
             transform: scale(0.95); }
 
+@media (max-width: 860px) {
+  footer .wrapper-content {
+    padding: 150px 0; }
+    footer .wrapper-content .inner-wrapper .headings-wrapper-box {
+      display: block; }
+      footer .wrapper-content .inner-wrapper .headings-wrapper-box .headings-box {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-flow: column; }
+        footer .wrapper-content .inner-wrapper .headings-wrapper-box .headings-box:nth-last-child(2) {
+          margin-bottom: 100px; }
+        footer .wrapper-content .inner-wrapper .headings-wrapper-box .headings-box h6 {
+          color: #29a89e;
+          margin-bottom: 20px; } }
 #header .hamburger {
   display: none; }
 
