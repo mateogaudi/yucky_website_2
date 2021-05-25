@@ -701,11 +701,11 @@ a .button-box-wrapper {
       .more-project .inner-wrapper .wrapper-box a .button-box-wrapper {
         padding: 25px 0; } }
 .logotypes {
-  transition: .25s ease-in; }
+  transition: 0.25s ease-in; }
   .logotypes:hover {
     color: white;
     background: #29a89e;
-    transition: .25s ease-in; }
+    transition: 0.25s ease-in; }
   .logotypes .image {
     background-image: url("../../assets/images/bck_logotypes.png");
     width: 100%;
@@ -726,6 +726,12 @@ a .button-box-wrapper {
         border: 1px solid #000;
         border-radius: 5%; }
 
+@media (max-width: 560px) {
+  .heading .main-largest-heading {
+    font-size: 80px; } }
+@media (max-width: 380px) {
+  .heading .main-largest-heading {
+    font-size: 60px; } }
 .help-wrapper {
   padding: 100px 0;
   border-bottom: 1px solid #000; }

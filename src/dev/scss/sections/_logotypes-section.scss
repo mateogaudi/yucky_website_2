@@ -1,35 +1,44 @@
-.logotypes{
-  transition: .25s ease-in;
-  &:hover{
+.logotypes {
+  transition: 0.25s ease-in;
+  &:hover {
     color: white;
-    background:$primaryColor;
-    transition: .25s ease-in;
+    background: $primaryColor;
+    transition: 0.25s ease-in;
   }
   .image {
     background-image: url("../../assets/images/bck_logotypes.png");
-    width:100%;
-    height:900px;
+    width: 100%;
+    height: 900px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
     background-size: cover;
-    .logotypes-button{
+    .logotypes-button {
       height: 25%;
       display: flex;
       flex-flow: column;
       align-items: center;
       justify-content: space-between;
-      h2 {
-      }
-        .button-wrapper {
-          border: 1px solid $black;
-          border-radius:5% ;
-          }
-        }
+      .button-wrapper {
+        border: 1px solid $black;
+        border-radius: 5%;
       }
     }
-
-
-
+  }
+}
+@media (max-width:560px){
+  .heading{
+    .main-largest-heading{
+      font-size: 80px;
+    }
+  }
+}
+@media (max-width:380px){
+  .heading{
+    .main-largest-heading{
+      font-size: 60px;
+    }
+  }
+}
