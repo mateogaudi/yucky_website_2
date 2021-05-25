@@ -271,7 +271,9 @@ footer {
         .main-page-yucky .header-wrapper .inner-wrapper .header-box:nth-last-child(1) {
           padding-bottom: 50px; }
         .main-page-yucky .header-wrapper .inner-wrapper .header-box .heading .main-heading {
-          font-size: 130px; } }
+          font-size: 110px; }
+      .main-page-yucky .header-wrapper .inner-wrapper .text .main-description span {
+        font-size: 28px; } }
 @media (max-width: 767px) {
   #header {
     border-bottom: 1px solid #000; }
@@ -688,7 +690,7 @@ a .button-box-wrapper {
     .more-project .inner-wrapper .wrapper-box .heading .medium-description span {
       font-weight: 400; }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .more-project {
     padding: 75px 0; }
     .more-project .inner-wrapper .wrapper-box {
