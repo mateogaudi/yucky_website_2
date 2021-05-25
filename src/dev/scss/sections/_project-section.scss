@@ -241,8 +241,15 @@
 }
 @media (max-width: 1024px) {
   .main-page-yucky {
-    .inner-wrapper {
-      width: 100%;
+    .information {
+      p {
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+        span {
+          display: block;
+        }
+      }
     }
   }
 }
@@ -257,9 +264,13 @@
             font-size: 80px;
           }
         }
-        .boxes-wrapper {
+        .boxes-wrapper{
           .information {
-            p {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            h3 {
+              margin-top: 25px;
               display: flex;
               align-items: center;
               flex-flow: column;
