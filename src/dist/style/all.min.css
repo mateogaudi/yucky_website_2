@@ -659,7 +659,7 @@ a .button-box-wrapper {
           display: inline; }
       .main-page-yucky .image-wrapper .inner-wrapper .boxes-wrapper .information p span {
         display: inline; } }
-@media (max-width: 1024px) {
+@media (max-width: 767px) {
   .main-page-yucky .information p {
     display: flex;
     align-items: center;
