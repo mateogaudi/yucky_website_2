@@ -56,8 +56,7 @@
     }
   }
 }
-@media (min-width: 1800px) {
-  .main-page-yucky{
+@media (max-width: 2100px) {
     .image-wrapper {
       padding-bottom: 75px;
       &:nth-child(4) {
@@ -78,8 +77,7 @@
       }
     }
   }
-}
-@media (max-width: 1799px) {
+@media (max-width: 1800px) {
     .image-wrapper {
       padding-bottom: 75px;
       &:nth-child(4) {
@@ -240,6 +238,7 @@
     }
   }
 @media (max-width: 560px) {
+
     .image-wrapper {
       .inner-wrapper {
         .headings {
@@ -268,3 +267,4 @@
       }
     }
   }
+
