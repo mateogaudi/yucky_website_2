@@ -20,3 +20,14 @@
     padding-bottom: 100px;
   }
 }
+@media (max-width:560px){
+  .logotypes-subpage{
+    .image-wrapper-boxes{
+      .inner-wrapper{
+        .box-image{
+          height:600px;
+        }
+      }
+    }
+  }
+}
