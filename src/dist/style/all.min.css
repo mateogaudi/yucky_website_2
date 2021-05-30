@@ -772,7 +772,7 @@ a .button-box-wrapper {
     .help-wrapper .inner-wrapper .wrapper-box .last-margin {
       margin-bottom: 0px; }
 
-@media (max-width: 1285px) {
+@media (max-width: 2100px) {
   .help-wrapper .inner-wrapper .headings {
     margin-bottom: 100px; }
     .help-wrapper .inner-wrapper .headings span {
@@ -793,7 +793,11 @@ a .button-box-wrapper {
         .help-wrapper .inner-wrapper .wrapper-box .box:hover span {
           transition: 0.25s ease all; }
     .help-wrapper .inner-wrapper .wrapper-box .last-margin {
-      margin-bottom: 0px; } }
+      margin-bottom: 0px;
+      text-align: center; } }
+@media (max-width: 1105px) {
+  .help-wrapper .headings {
+    text-align: center; } }
 @media (max-width: 767px) {
   .help-wrapper {
     padding: 50px 0; }
@@ -816,6 +820,12 @@ a .button-box-wrapper {
   .step-wrapper .inner-wrapper .headings span {
     display: block; }
 
+@media (max-width: 780px) {
+  .step-wrapper .inner-wrapper .headings {
+    margin-bottom: 75px;
+    text-align: center; }
+    .step-wrapper .inner-wrapper .headings .main-largest-heading {
+      font-size: 70px; } }
 .project-wrapper {
   padding: 0 0 100px; }
   .project-wrapper .inner-wrapper .headings {

@@ -1,10 +1,23 @@
-.step-wrapper{
- padding: 100px 0;
- .inner-wrapper{
-  .headings{
-   span{
-    display: block;
-   }
+.step-wrapper {
+  padding: 100px 0;
+  .inner-wrapper {
+    .headings {
+      span {
+        display: block;
+      }
+    }
   }
- }
+}
+@media (max-width: 780px) {
+  .step-wrapper {
+    .inner-wrapper {
+      .headings {
+        margin-bottom: 75px;
+        text-align: center;
+        .main-largest-heading {
+          font-size: 70px;
+        }
+      }
+    }
+  }
 }

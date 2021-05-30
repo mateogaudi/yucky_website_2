@@ -34,7 +34,7 @@
     }
   }
 }
-@media (max-width: 1285px) {
+@media (max-width: 2100px) {
   .help-wrapper {
     .inner-wrapper {
       .headings {
@@ -63,8 +63,16 @@
         }
         .last-margin {
           margin-bottom: 0px;
+          text-align: center;
         }
       }
+    }
+  }
+}
+@media (max-width:1105px) {
+  .help-wrapper{
+    .headings{
+      text-align: center;
     }
   }
 }
