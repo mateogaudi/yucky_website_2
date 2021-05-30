@@ -399,6 +399,9 @@ footer {
 @media (max-width: 767px) {
   .about-the-studio .header-wrapper {
     border-top: 1px solid #fff; } }
+@media (max-width: 560px) {
+  .about-the-studio .headings .main-largest-heading {
+    font-size: 80px; } }
 .header-wrapper-box {
   width: 100%;
   padding-top: 75px; }
