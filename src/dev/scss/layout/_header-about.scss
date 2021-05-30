@@ -54,3 +54,61 @@
     }
   }
 }
+@media (max-width:1440px){
+  .about-the-studio{
+    .header-wrapper {
+      .inner-wrapper {
+        .heading-box {
+          width: 65%;
+        }
+        .picture-box {
+          width: 35%;
+          position: relative;
+          img {
+            position: absolute;
+            right: 0;
+            bottom: -100px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width:1024px){
+  .about-the-studio{
+    .header-wrapper {
+      padding: 75px 0 100px;
+      .inner-wrapper {
+        .heading-box {
+          width: 100%;
+          a{
+            .button-box-wrapper{
+              display: none;
+            }
+          }
+          .headings {
+            span {
+              text-align: center;    
+            }
+          }
+          .header-text {
+            .main-description{
+              text-align: center;
+             
+            }
+          }
+        }
+        .picture-box {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media (max-width:767px){
+  .about-the-studio{
+    .header-wrapper {
+      border-top: 1px solid $white;
+    }
+  }
+}
