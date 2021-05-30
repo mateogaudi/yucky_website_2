@@ -452,6 +452,15 @@ footer {
   .project-subpage-wrapper .header-wrapper .inner-wrapper .heading-box .headings span {
     color: #000; }
 
+@media (max-width: 1024px) {
+  .project-subpage-wrapper .header-wrapper .inner-wrapper .heading-box {
+    width: 100%;
+    text-align: center; }
+    .project-subpage-wrapper .header-wrapper .inner-wrapper .heading-box .button-box-wrapper {
+      display: none; } }
+@media (max-width: 560px) {
+  .project-subpage-wrapper .header-wrapper .inner-wrapper .heading-box .headings .main-largest-heading {
+    font-size: 80px; } }
 .title .title-wrapper .header-wrapper {
   border-bottom: none;
   padding-bottom: 0; }
@@ -554,9 +563,9 @@ footer {
   position: absolute;
   right: 5%;
   bottom: 5%;
-  z-index: 5; }
-  .project-wrapper .boxes-wrapper .button-wrapper .main-button-change:hover {
-    border: 1px solid #000; }
+  z-index: 5;
+  border: 1px solid #000;
+  border-radius: 5%; }
 
 .button-box-wrapper a img {
   width: 200px;
@@ -896,6 +905,34 @@ a .button-box-wrapper {
   .project-wrapper .inner-wrapper .boxes-wrapper .information h3 {
     margin-bottom: 20px; }
 
+@media (max-width: 1024px) {
+  .project-wrapper .inner-wrapper .boxes-wrapper .picture-box .social-media-box {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    z-index: 5; }
+  .project-wrapper .inner-wrapper .boxes-wrapper .picture-box .button-wrapper {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%; }
+  .project-wrapper .inner-wrapper .boxes-wrapper .information {
+    text-align: center; }
+    .project-wrapper .inner-wrapper .boxes-wrapper .information h3 {
+      margin-bottom: 20px; } }
+@media (max-width: 560px) {
+  .project-wrapper {
+    padding: 0 0 50px; }
+    .project-wrapper .inner-wrapper .boxes-wrapper .picture-box {
+      position: relative; }
+      .project-wrapper .inner-wrapper .boxes-wrapper .picture-box .social-media-box {
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        z-index: 5; }
+      .project-wrapper .inner-wrapper .boxes-wrapper .picture-box .img {
+        height: 600px; }
+    .project-wrapper .inner-wrapper .boxes-wrapper .information h3 {
+      margin-bottom: 10px; } }
 .logotypes-subpage .image-wrapper-boxes {
   padding: 100px 0;
   border-bottom: 1px solid #000; }
