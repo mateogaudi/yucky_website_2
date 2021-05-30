@@ -148,7 +148,7 @@ footer {
       align-items: center;
       display: flex;
       flex-flow: column; }
-      footer .wrapper-content .inner-wrapper .headings-wrapper-box .headings-box:nth-last-child(2) {
+      footer .wrapper-content .inner-wrapper .headings-wrapper-box .headings-box:nth-child(1) {
         margin-bottom: 100px; }
       footer .wrapper-content .inner-wrapper .headings-wrapper-box .headings-box h6 {
         color: #29a89e;
