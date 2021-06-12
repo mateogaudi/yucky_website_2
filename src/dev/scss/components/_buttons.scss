@@ -39,9 +39,10 @@
       right: 5%;
       bottom: 5%;
       z-index: 5;
+      border: 1px solid $black;
+      border-radius:5%;
       .main-button-change {
         &:hover {
-          border: 1px solid $black;
         }
       }
     }

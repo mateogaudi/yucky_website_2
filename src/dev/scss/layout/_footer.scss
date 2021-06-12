@@ -46,3 +46,27 @@ footer {
     }
   }
 }
+@media (max-width:860px){
+  footer {
+    .wrapper-content {
+      .inner-wrapper {
+        .headings-wrapper-box {
+          display: block;
+          .headings-box {
+            width: 100%;
+            align-items: center;
+            display: flex;
+            flex-flow: column;
+            &:nth-child(1){
+              margin-bottom: 100px;
+            }
+            h6 {
+              color: $primaryColor;
+              margin-bottom: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
